@@ -1,4 +1,6 @@
-ComicCafeHelp
+ComicCafe
 =============
 
 Help Document for ComicCafe
+
+
