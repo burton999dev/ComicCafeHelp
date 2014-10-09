@@ -4,25 +4,56 @@ Android用コミックビューワアプリ **ComicCafe** の[公式ヘルプ](#
 This document is the [official document](#english) for ComicCafe.
 
 ===
-<a name ="japanese">目次</a>  
-[はじめに](documents/ja/Introduction.mkd)  
-[機能一覧](documents/ja/FeaturesList.mkd)  
-[リリースノート](documents/ja/ReleaseNote.mkd)  
-[インストール](documents/ja/Installation.mkd)  
-[ComicCafeサーバー](documents/ja/Server.mkd)  
-[ComicCafeクライアント](documents/ja/Client.mkd)  
-[FAQ](documents/ja/FAQ.mkd)  
+**<a name ="japanese">目次</a>**  
+- [はじめに](documents/ja/Introduction.mkd)
+- [機能一覧](documents/ja/FeaturesList.mkd)
+- [リリースノート](documents/ja/ReleaseNote.mkd)
+- [インストール](documents/ja/Installation.mkd)
+- [ComicCafeサーバー](documents/ja/Server.mkd)
+	- [サーバーの起動]()
+	- [基本操作]()
+	- [インポート処理]()
+	- [設定]()
+	- [Webサービス]()
+	- []()
+		- [著者の管理]()
+		- [出版社の管理]()
+		- [タグの管理]()
+- [ComicCafeクライアント](documents/ja/Client.mkd)
+	- [設定]()
+		- [サーバーの設定]()
+		- [クライアントの設定]()
+		- [その他]()
+	- [キーワード検索]()
+	- [カテゴリ検索]()
+	- [本棚]()
+	- [ダウンロード]()
+	- [ビューワー]()
+- [FAQ](documents/ja/FAQ.mkd)
+
+<br/>
+<br/>
 
 ===
-<a name ="english">Contents</a>  
-[Introduction](documents/en/Introduction.mkd)  
-[Features List](documents/en/FeaturesList.mkd)  
-[Release Note](documents/en/ReleaseNote.mkd)  
-[Installation](documents/en/Installation.mkd)  
-[ComicCafe Server](documents/en/Server.mkd)  
-[ComicCafe Client](documents/en/Client.mkd)  
-[FAQ](documents/en/FAQ.mkd)  
-
-
+**<a name ="english">Contents</a>**  
+- [Introduction](documents/en/Introduction.mkd)
+- [Features List](documents/en/FeaturesList.mkd)
+- [Release Note](documents/en/ReleaseNote.mkd)
+- [Installation](documents/en/Installation.mkd)
+- [ComicCafe Server](documents/en/Server.mkd)
+	- []()
+	- []()
+	- []()
+	- []()
+	- []()
+	- []()
+- [ComicCafe Client](documents/en/Client.mkd)
+	- []()
+	- []()
+	- []()
+	- []()
+	- []()
+	- []()
+- [FAQ](documents/en/FAQ.mkd)
 
 
