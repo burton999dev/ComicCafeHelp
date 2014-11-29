@@ -31,7 +31,7 @@ Javaのインストールが無事に終わったら、次にComicCafeサーバ�
 |launch.command|MacOSX|Mac用の起動スクリプトです。|
 |launch.sh|Linux|Linux用の起動スクリプトです。|
 |ComicCafeServer.exe|Windows|Windows用のexeファイルです。batファイルの知識がない人はダウンロードしてください。exeファイルから起動した場合、1GBのメモリが割り当てられます。|
-|apk/ComicCafeClient.apk|Other|一昔前の中華パッドなどで [GooglePlay](https://play.google.com/store/apps/details?id=com.burton999.cc.client) にアクセスできない端末用です。ダウンロードして直接端末にインストールできます。|
+|apk/ComicCafeClient.apk|ALL|一昔前の中華パッドなどで [GooglePlay](https://play.google.com/store/apps/details?id=com.burton999.cc.client) にアクセスできない端末用です。ダウンロードして直接端末にインストールできます。|
 
 ### ComicCafeサーバの更新
 新しいバージョンのComicCafeサーバがリリースされた場合は、すみやかにアップデートしてください。サーバが古いままだとクライアントの新しい機能が使用できない可能性があります。  
