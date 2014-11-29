@@ -1,5 +1,7 @@
 # インストール
 
+
+
 ## サーバのインストール
 ### Javaのインストール
 ComicCafeサーバを実行するにはJavaの実行環境が必要です。  
@@ -32,6 +34,7 @@ Javaのインストールが無事に終わったら、次にComicCafeサーバ�
 
 
 
-
-
 ## クライアントのインストール
+クライアントは [GooglePlay](https://play.google.com/store/apps/details?id=com.burton999.cc.client) からダウンロードしてインストールしてください。  
+
+
