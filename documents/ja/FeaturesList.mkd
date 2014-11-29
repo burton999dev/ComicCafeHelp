@@ -1,24 +1,38 @@
 # 機能一覧
 
 ## ComicCafeサーバ
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- インポート
+    - ファイル名によるタイトル、著者名、巻数、タグの解析
+    - [ComicRack](http://comicrack.cyolito.com/downloads/ComicRack/Support-Files/ComicInfoSchema.zip), [ComicBookInfo](https://docs.google.com/document/pub?id=1Tu9eoPWc_8SPgxx5J4-6mEaaRWLLv-bEA8i_jcIe3IE), [CoMet](http://www.denvog.com/comet/comet-specification/) のメタ情報の読み込みのサポート
+    - 画像からISBNの自動スキャン
+    - 表示画像の自動生成
+    - 様々なファイル形式のサポート (zip, cbz, rar, cbr, lzh, cab, tar.gz, 7z, cb7, pdf)
+    - ZipInZipのサポート
+    - ディレクトリを監視して自動インポート
+- 情報の管理
+    - カテゴリの管理
+    - シリーズの管理
+    - ブックの管理
+    - ブック情報のCSVエクスポート
+    - 著者の管理
+    - 著者情報のCSVインポート/エクスポート
+    - 出版社の管理
+    - 出版社情報のCSVインポート/エクスポート
+    - タグの管理
+    - タグ情報のCSVインポート/エクスポート
+- Webサービス
+    - ISBNよりブック情報の取得
+        - 楽天BookAPI
+        - 国立国会図書館
+        - ISBNdb.com
+- セキュリティ
+    - アカウントの追加と削除
+    - アカウント毎に読めるファイルを制限
+    - アカウント毎にアクセスできる端末を制限
 
 ## CoimcCafeクライアント
 - 本棚のカスタマイズ
+- パスワードZipのサポート
 - ブックの検索
     - キーワードによる検索
     - 完結、未完結など詳細な条件を指定して検索
