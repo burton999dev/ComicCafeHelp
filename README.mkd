@@ -10,12 +10,13 @@ This document is the [official document](#english) for ComicCafe.
 - [リリースノート](documents/ja/ReleaseNote.mkd)
 - [インストール](documents/ja/Installation.mkd)
 - [ComicCafeサーバー](documents/ja/Server.mkd)
+	- [技術情報]()
 	- [サーバーの起動](documents/ja/Server/Launch.mkd)
-	- [基本操作](documents/ja/Server/BasicOperations.mkd)
 	- [インポート処理](documents/ja/Server/Import.mkd)
 	- [設定](documents/ja/Server/Settings.mkd)
 	- [Webサービス](documents/ja/Server/Webservice.mkd)
-	- []()
+	- [拡張機能](documents/ja/Server/Extension.mkd)
+	- [基本操作](documents/ja/Server/BasicOperations.mkd)
 		- [カテゴリの管理]()
 		- [シリーズの管理]()
 		- [ブックの管理]()
@@ -32,6 +33,7 @@ This document is the [official document](#english) for ComicCafe.
 	- [本棚]()
 	- [ダウンロード]()
 	- [ビューワー]()
+	- [その他]()
 - [FAQ](documents/ja/FAQ.mkd)
 
 <br/>
