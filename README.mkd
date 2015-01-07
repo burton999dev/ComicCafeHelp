@@ -10,7 +10,7 @@ This document is the [official document](#english) for ComicCafe.
 - [リリースノート](documents/ja/ReleaseNote.mkd)
 - [インストール](documents/ja/Installation.mkd)
 - [ComicCafeサーバー](documents/ja/Server.mkd)
-	- [技術情報]()
+	- [データベース](documents/ja/Server/Database.mkd)
 	- [サーバーの起動](documents/ja/Server/Launch.mkd)
 	- [インポート処理](documents/ja/Server/Import.mkd)
 	- [設定](documents/ja/Server/Settings.mkd)
