@@ -25,6 +25,60 @@ PASSWORD|nvarchar2(32)|No|Yes|ハッシュ化されたパスワード
 ACCOUNT_TYPE|number(2)|No|No|1:Admin 2:DefaultUser 3:User
 LAST_MODIFIED_TIME|timestamp|No|No|
 
+### DEVICE
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+USER_ID|number(12)|Yes|No|
+ANDROID_ID|nvarchar2(64)|Yes|No|
+
+### CATEGORY
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+CATEGORY_ID|number(12)|Yes|No|
+PARENT_ID|number(12)|No|Yes|
+NAME|nvarchar2(256)|No|Yes|
+PATH|nvarchar2(256)|No|Yes|
+LAST_MODIFIED_TIME|timestamp|No|No|
+NOTE|nvarchar2(512)|No|Yes|
+
+### SERIES
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+SERIES_ID|number(12)|Yes|No|
+CATEGORY_ID|number(12)|No|Yes|
+TITLE|nvarchar2(256)|No|No|
+PATH|nvarchar2(256)|No|No|
+IS_COMPLETION|number(1)|No|No|
+LAST_MODIFIED_TIME|timestamp|No|No|
+NOTE|nvarchar2(512)|No|Yes|
+
+### BOOK
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOK_ID|number(12)|Yes|No|
+SERIES_ID|number(12)|No|No|
+TITLE|nvarchar2(256)|No|No|
+ISBN|nvarchar2(16)|No|Yes|
+VOLUME|number(4)|No|Yes|
+PAGE_COUNT|number(6)|No|No|
+FILE_PATH|nvarchar2(512)|No|No|
+SORTABLE_FILE_NAME|nvarchar2(256)|No|No|
+SIZE|number(12)|No|No|
+HASH|nvarchar2(32)|No|No|
+COVER_PAGE_NO|number(6)|No|Yes|
+COVER_IMAGE_TYPE|number(1)|No|Yes|
+COVER_IMAGE|blob|No|Yes|
+COVER_LARGE_IMAGE_URL|nvarchar2(512)|No|Yes|
+COVER_SMALL_IMAGE_URL|nvarchar2(512)|No|Yes|
+COVER_CROP_COORD|nvarchar2(32)|No|Yes|
+IS_ENCRYPT|number(1)|No|No|
+PUBLISHER_ID|number(12)|No|Yes|
+PUBLISHED_DATE|date|No|Yes|
+CREATION_TIME|timestamp|No|No|
+LAST_MODIFIED_TIME|timestamp|No|No|
+NOTE|nvarchar2(512)|No|Yes|
+IS_ISBN_SEARCH|number(1)|No|No|
+
 ### AUTHOR
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
@@ -34,79 +88,122 @@ SEARCH_NAME|nvarchar2(64)|No|No|
 REFERENCED_COUNTING|number(6)|No|No|
 LAST_MODIFIED_TIME|timestamp|No|No|
 
-### BOOK_AUTHOR
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
-
-### BOOK
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
-
-### BOOK_REVIEW
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
-
-### USE_BOOK_SEARCH_SERVICE
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
-
-### BOOK_TAG
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
-
-### CATEGORY
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
-
-### CONFIGURATION
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
-
-### EXCLUDE_WORD
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
-
-### IGNORE_FILE
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
-
-### PERMISSION
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
-
 ### PUBLISHER
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
-
-### SERIES
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
+PUBLISHER_ID|number(12)|Yes|No|
+NAME|nvarchar2(64)|No|No|
+REFERENCED_COUNTING|number(6)|No|No|
+LAST_MODIFIED_TIME|timestamp|No|No|
 
 ### TAG
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
+TAG_ID|number(12)|Yes|No|
+KEYWORD|nvarchar2(256)|No|No|
+REFERENCED_COUNTING|number(6)|No|No|
+LAST_MODIFIED_TIME|timestamp|No|No|
+
+### BOOK_AUTHOR
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOK_ID|number(12)|Yes|No|
+AUTHOR_ID|number(12)|Yes|No|
+
+### BOOK_TAG
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOK_ID|number(12)|Yes|No|
+TAG_ID|number(12)|Yes|No|
+
+### SERIES_TAG
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+SERIES_ID|number(12)|Yes|No|
+TAG_ID|number(12)|Yes|No|
 
 ### BOOKMARK
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
+BOOKMARK_ID|number(12)|Yes|No|
+USER_ID|number(12)|No|No|
+BOOK_ID|number(12)|No|No|
+PAGE_NO|nvarchar2(64)|No|No|
+CREATION_TIME|timestamp|No|No|
+
+### READ_BOOK
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOK_ID|number(12)|Yes|No|
+USER_ID|number(12)|Yes|No|
+READ_PAGE_FIELDS|nvarchar2(2048)|No|Yes|
+LAST_MODIFIED_TIME|timestamp|No|No|
 
 ### READ_HISTORY
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
-
-### DATABASE_UNIQUE_ID
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
+READ_HISTORY_ID|number(12)|Yes|No|
+USER_ID|number(12)|No|No|
+BOOK_ID|number(12)|No|No|
+PAGE_NO|nvarchar2(64)|No|No|
+READ_TIME|timestamp|No|No|
 
 ### BOOKSHELF
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
+BOOKSHELF_ID|number(12)|Yes|No|
+USER_ID|number(12)|No|No|
+JSON|nvarchar2(4096)|No|No|
+
+### PERMISSION
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+USER_ID|number(12)|Yes|No|
+TARGET_RESOURCE|number(2)|Yes|No|
+TARGET_ID|number(12)|Yes|No|
+
+### USE_BOOK_SEARCH_SERVICE
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+SERVICE_ID|number(12)|Yes|No|
+PRIORITY|number(2)|No|Yes|
+
+### CONFIGURATION
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+KEY|nvarchar2(64)|Yes|No|
+VALUE|nvarchar2(256)|No|Yes|
+
+### EXCLUDE_WORD
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+WORD|nvarchar2(64)|Yes|No|
+LOCATE|nvarchar2(4)|No|No|
+
+### IGNORE_FILE
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+ID|number(12)|No|No|
+FILE_PATH|nvarchar2(512)|Yes|No|
+HASH|nvarchar2(32)|Yes|No|
+
+### DATABASE_UNIQUE_ID
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+|UUID|nvarchar2(64)|Yes|No|
+
+### BOOK_REVIEW
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOK_ID|number(12)|Yes|No|
+USER_ID|number(12)|Yes|No|
+COMMENT|nvarchar2(512)|No|Yes|
+RATING|number(1)|No|Yes|
 
 ### BOOK_CONFIGURATION
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
-
-### DEVICE
-|列名|型|PK|NULL|説明|
-|:-----------|:------------|:------------|:------------|:------------|
-
+USER_ID|number(12)|Yes|No|
+BOOK_ID|number(12)|Yes|No|
+KEY|nvarchar2(64)|Yes|No|
+VALUE|nvarchar2(1024)|No|No|
