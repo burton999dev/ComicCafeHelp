@@ -1,2 +1,3 @@
-Server
-==============
+# サーバーの構成
+
+![ServerComponent](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ServerComponent.png)
