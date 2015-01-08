@@ -1,3 +1,20 @@
+v0.6.35 (2015/01/01)
+===
+- ライブラリ(H2Database, Jetty, commons-compress, Doma, Gson, PDFBox)をアップデートしました。
+- サーバーとの通信がGZIPで圧縮されていなかった問題を修正しました。
+- 本棚の条件で読書進捗で '＜' 検索した場合に、全く読んでない進捗0%のブックがヒットしない問題を修正しました。
+- 一覧取得や本棚表示でエラーになった場合に、トーストを表示するようにしました。
+- DBのパフォーマンスをチューニングしました。
+- 表紙イメージのサイズを変更できるようにしました。
+- クライアントの設定情報をインポート、エクスポートできるようにしました。
+- インポート時に不明な文字列をタグとして登録するかどうか設定できるようにしました。
+- Web管理画面でBookの表紙画像が表示されない問題を修正しました。
+- インポート時に分割されたrarファイルをスキップするようにしました。
+- `-P`オプションでWeb管理画面のポートを個別に変更できるようにしました。
+- ページの先読みを改善しました。
+- 巻跨ぎのページ先読みを改善しました。
+- 全角のユーザー名で認証に失敗する問題を修正しました。
+- インポート時にメタデータ([CoMet](http://www.denvog.com/comet/comet-specification/), [ComicRack](http://comicrack.cyolito.com/downloads/ComicRack/Support-Files/ComicInfoSchema.zip/), [ComicBookInfo](https://docs.google.com/document/pub?id=1Tu9eoPWc_8SPgxx5J4-6mEaaRWLLv-bEA8i_jcIe3IE))の読み込みをサポートしました。
 
 v0.6.34 (2014/10/10)
 ===
