@@ -26,7 +26,8 @@ ACCOUNT_TYPE|number(2)|No|No|1:Admin 2:DefaultUser 3:User
 LAST_MODIFIED_TIME|timestamp|No|No|
 
 ```
-テーブルです。
+アカウントを管理するテーブルです。
+ComicCafeではアカウント毎に様々な情報を管理します。
 ```
 ### DEVICE
 |列名|型|PK|NULL|説明|
@@ -35,7 +36,8 @@ USER_ID|number(12)|Yes|No|
 ANDROID_ID|nvarchar2(64)|Yes|No|Secure.ANDROID_ID
 
 ```
-テーブルです。
+デバイスを管理するテーブルです。
+このレコードがある場合、ユーザーは指定された端末以外からアクセスできなくなります。
 ```
 ### CATEGORY
 |列名|型|PK|NULL|説明|
@@ -48,7 +50,10 @@ LAST_MODIFIED_TIME|timestamp|No|No|
 NOTE|nvarchar2(512)|No|Yes|
 
 ```
-テーブルです。
+カテゴリを管理するテーブルです。
+ブックのインポート処理で作成されます。
+カテゴリはツリー構造になっています。
+H2DBは再帰SQLもサポートしているので取得に便利です。
 ```
 ### SERIES
 |列名|型|PK|NULL|説明|
@@ -62,7 +67,9 @@ LAST_MODIFIED_TIME|timestamp|No|No|
 NOTE|nvarchar2(512)|No|Yes|
 
 ```
-テーブルです。
+シリーズを管理するテーブルです。
+ブックのインポート処理で作成されます。
+親のカテゴリを持たないシリーズも仕様上あり得ます。
 ```
 ### BOOK
 |列名|型|PK|NULL|説明|
@@ -92,7 +99,8 @@ NOTE|nvarchar2(512)|No|Yes|
 IS_ISBN_SEARCH|number(1)|No|No|0:未実施 1:ISBN検索実行済み
 
 ```
-テーブルです。
+ブックを管理するテーブルです。
+ブックのインポート処理で作成されます。
 ```
 ### AUTHOR
 |列名|型|PK|NULL|説明|
@@ -104,7 +112,7 @@ REFERENCED_COUNTING|number(6)|No|No|被参照数
 LAST_MODIFIED_TIME|timestamp|No|No|
 
 ```
-テーブルです。
+著者を管理するテーブルです。
 ```
 ### PUBLISHER
 |列名|型|PK|NULL|説明|
@@ -115,7 +123,7 @@ REFERENCED_COUNTING|number(6)|No|No|被参照数
 LAST_MODIFIED_TIME|timestamp|No|No|
 
 ```
-テーブルです。
+出版社を管理するテーブルです。
 ```
 ### TAG
 |列名|型|PK|NULL|説明|
@@ -126,7 +134,7 @@ REFERENCED_COUNTING|number(6)|No|No|被参照数
 LAST_MODIFIED_TIME|timestamp|No|No|
 
 ```
-テーブルです。
+タグを管理するテーブルです。
 ```
 ### BOOK_AUTHOR
 |列名|型|PK|NULL|説明|
@@ -135,7 +143,8 @@ BOOK_ID|number(12)|Yes|No|
 AUTHOR_ID|number(12)|Yes|No|
 
 ```
-テーブルです。
+ブックに関連づいている著者を管理するテーブルです。
+このテーブルにレコードが追加されると、関連するAUTHORテーブルのREFERENCED_COUNTINGがインクリメントされます。
 ```
 ### BOOK_TAG
 |列名|型|PK|NULL|説明|
@@ -144,7 +153,8 @@ BOOK_ID|number(12)|Yes|No|
 TAG_ID|number(12)|Yes|No|
 
 ```
-テーブルです。
+ブックに関連づいているタグを管理するテーブルです。
+このテーブルにレコードが追加されると、関連するTAGテーブルのREFERENCED_COUNTINGがインクリメントされます。
 ```
 ### SERIES_TAG
 |列名|型|PK|NULL|説明|
@@ -153,7 +163,8 @@ SERIES_ID|number(12)|Yes|No|
 TAG_ID|number(12)|Yes|No|
 
 ```
-テーブルです。
+シリーズに関連づいているタグを管理するテーブルです。
+このテーブルにレコードが追加されると、関連するTAGテーブルのREFERENCED_COUNTINGがインクリメントされます。
 ```
 ### BOOKMARK
 |列名|型|PK|NULL|説明|
@@ -165,7 +176,8 @@ PAGE_NO|nvarchar2(64)|No|No|
 CREATION_TIME|timestamp|No|No|
 
 ```
-テーブルです。
+ブックマークを管理するテーブルです。
+USER_ID, BOOK_ID, PAGE_NOでユニークになります。
 ```
 ### READ_BOOK
 |列名|型|PK|NULL|説明|
@@ -176,7 +188,10 @@ READ_PAGE_FIELDS|nvarchar2(2048)|No|Yes|既読ページを表すビットフィ�
 LAST_MODIFIED_TIME|timestamp|No|No|
 
 ```
-テーブルです。
+ユーザーが読み終えたページを管理するテーブルです。
+READ_PAGE_FIELDSはビットフィールドです。
+例えば1111001というデータの場合、1〜4ページ目は既読5,6ページは未読、7ページ目は既読という意味になります。
+実際の値は16進数の文字列として保存されています。この情報を元に読書進捗などを計算しています。
 ```
 ### READ_HISTORY
 |列名|型|PK|NULL|説明|
@@ -188,7 +203,8 @@ PAGE_NO|nvarchar2(64)|No|No|
 READ_TIME|timestamp|No|No|
 
 ```
-テーブルです。
+ユーザー、ブック毎の最後に開いていたページを管理するテーブルです。
+USER_ID, BOOK_IDでユニークになります。
 ```
 ### BOOKSHELF
 |列名|型|PK|NULL|説明|
@@ -198,7 +214,8 @@ USER_ID|number(12)|No|No|
 JSON|nvarchar2(4096)|No|No|本棚条件を表すJSON
 
 ```
-テーブルです。
+本棚を管理するテーブルです。
+本棚に関する全ての情報はJSONとして保存されています。
 ```
 ### PERMISSION
 |列名|型|PK|NULL|説明|
@@ -208,7 +225,9 @@ TARGET_RESOURCE|number(2)|Yes|No|1:カテゴリ 2:シリーズ 3:ブック
 TARGET_ID|number(12)|Yes|No|
 
 ```
-テーブルです。
+ブックに対するアクセス権を管理するテーブルです。
+このテーブルにレコードが作成されると、その配下のブック全てが影響を受けます。
+レコードが存在しない場合は、全てのユーザーがアクセスできるという意味になります。
 ```
 ### USE_BOOK_SEARCH_SERVICE
 |列名|型|PK|NULL|説明|
@@ -217,7 +236,7 @@ SERVICE_ID|number(12)|Yes|No|
 PRIORITY|number(2)|No|Yes|
 
 ```
-テーブルです。
+ISBNを使った書籍情報の検索に使用するWebサービスを管理するテーブルです。
 ```
 ### CONFIGURATION
 |列名|型|PK|NULL|説明|
@@ -226,7 +245,8 @@ KEY|nvarchar2(64)|Yes|No|
 VALUE|nvarchar2(256)|No|Yes|
 
 ```
-テーブルです。
+ComicCafeサーバーの設定情報を管理するテーブルです。
+Webサービスのアカウント情報など、ユーザーが設定する情報を管理します。
 ```
 ### EXCLUDE_WORD
 |列名|型|PK|NULL|説明|
@@ -235,7 +255,8 @@ WORD|nvarchar2(64)|Yes|No|
 LOCATE|nvarchar2(4)|No|No|
 
 ```
-テーブルです。
+無視ワードを管理するテーブルです。
+インポート処理でファイル名を解析する際に、無視するワードを管理します。
 ```
 ### IGNORE_FILE
 |列名|型|PK|NULL|説明|
@@ -245,7 +266,8 @@ FILE_PATH|nvarchar2(512)|Yes|No|
 HASH|nvarchar2(32)|Yes|No|MD5ハッシュ値
 
 ```
-テーブルです。
+無視ファイルリストを管理するテーブルです。
+このテーブルに登録されたファイルは強制的にインポート処理でスキップされます。
 ```
 ### DATABASE_UNIQUE_ID
 |列名|型|PK|NULL|説明|
@@ -253,7 +275,10 @@ HASH|nvarchar2(32)|Yes|No|MD5ハッシュ値
 |UUID|nvarchar2(64)|Yes|No|
 
 ```
-テーブルです。
+ComicCafeサーバーの一意性を保証するためのテーブルです。
+初回起動時にランダムな文字列が生成され登録されます。
+このテーブルには常に1レコードのみ存在します。
+複数のComicCafeサーバーを運用していて、接続先を切り替える場合に、ComicCafeの同一性を確認するのに使います。
 ```
 ### BOOK_REVIEW
 |列名|型|PK|NULL|説明|
