@@ -25,22 +25,31 @@ PASSWORD|nvarchar2(32)|No|Yes|ハッシュ化されたパスワード
 ACCOUNT_TYPE|number(2)|No|No|1:Admin 2:DefaultUser 3:User
 LAST_MODIFIED_TIME|timestamp|No|No|
 
+```
+テーブルです。
+```
 ### DEVICE
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 USER_ID|number(12)|Yes|No|
-ANDROID_ID|nvarchar2(64)|Yes|No|
+ANDROID_ID|nvarchar2(64)|Yes|No|Secure.ANDROID_ID
 
+```
+テーブルです。
+```
 ### CATEGORY
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 CATEGORY_ID|number(12)|Yes|No|
-PARENT_ID|number(12)|No|Yes|
+PARENT_ID|number(12)|No|Yes|ルートの場合はnull
 NAME|nvarchar2(256)|No|Yes|
 PATH|nvarchar2(256)|No|Yes|
 LAST_MODIFIED_TIME|timestamp|No|No|
 NOTE|nvarchar2(512)|No|Yes|
 
+```
+テーブルです。
+```
 ### SERIES
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
@@ -48,10 +57,13 @@ SERIES_ID|number(12)|Yes|No|
 CATEGORY_ID|number(12)|No|Yes|
 TITLE|nvarchar2(256)|No|No|
 PATH|nvarchar2(256)|No|No|
-IS_COMPLETION|number(1)|No|No|
+IS_COMPLETION|number(1)|No|No|0:未完 1:完結
 LAST_MODIFIED_TIME|timestamp|No|No|
 NOTE|nvarchar2(512)|No|Yes|
 
+```
+テーブルです。
+```
 ### BOOK
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
@@ -60,68 +72,89 @@ SERIES_ID|number(12)|No|No|
 TITLE|nvarchar2(256)|No|No|
 ISBN|nvarchar2(16)|No|Yes|
 VOLUME|number(4)|No|Yes|
-PAGE_COUNT|number(6)|No|No|
+PAGE_COUNT|number(6)|No|No|総ページ数
 FILE_PATH|nvarchar2(512)|No|No|
-SORTABLE_FILE_NAME|nvarchar2(256)|No|No|
-SIZE|number(12)|No|No|
-HASH|nvarchar2(32)|No|No|
-COVER_PAGE_NO|number(6)|No|Yes|
-COVER_IMAGE_TYPE|number(1)|No|Yes|
+SORTABLE_FILE_NAME|nvarchar2(256)|No|No|0Padしたファイル名
+SIZE|number(12)|No|No|ファイルサイズ
+HASH|nvarchar2(32)|No|No|MD5ハッシュ値
+COVER_PAGE_NO|number(6)|No|Yes|表紙画像に使うページ番号
+COVER_IMAGE_TYPE|number(1)|No|Yes|1:自炊ファイル内の画像<BR>2:範囲指定画像<BR>3:Webserviceから取得した画像(小)<BR>4:Webserviceから取得した画像(大)
 COVER_IMAGE|blob|No|Yes|
 COVER_LARGE_IMAGE_URL|nvarchar2(512)|No|Yes|
 COVER_SMALL_IMAGE_URL|nvarchar2(512)|No|Yes|
-COVER_CROP_COORD|nvarchar2(32)|No|Yes|
-IS_ENCRYPT|number(1)|No|No|
+COVER_CROP_COORD|nvarchar2(32)|No|Yes|画像の範囲指定情報(未サポート)
+IS_ENCRYPT|number(1)|No|No|0:通常 1:パスワード書庫
 PUBLISHER_ID|number(12)|No|Yes|
 PUBLISHED_DATE|date|No|Yes|
 CREATION_TIME|timestamp|No|No|
 LAST_MODIFIED_TIME|timestamp|No|No|
 NOTE|nvarchar2(512)|No|Yes|
-IS_ISBN_SEARCH|number(1)|No|No|
+IS_ISBN_SEARCH|number(1)|No|No|0:未実施 1:ISBN検索実行済み
 
+```
+テーブルです。
+```
 ### AUTHOR
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 AUTHOR_ID|number(12)|Yes|No|
 NAME|nvarchar2(64)|No|No|
 SEARCH_NAME|nvarchar2(64)|No|No|
-REFERENCED_COUNTING|number(6)|No|No|
+REFERENCED_COUNTING|number(6)|No|No|被参照数
 LAST_MODIFIED_TIME|timestamp|No|No|
 
+```
+テーブルです。
+```
 ### PUBLISHER
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 PUBLISHER_ID|number(12)|Yes|No|
 NAME|nvarchar2(64)|No|No|
-REFERENCED_COUNTING|number(6)|No|No|
+REFERENCED_COUNTING|number(6)|No|No|被参照数
 LAST_MODIFIED_TIME|timestamp|No|No|
 
+```
+テーブルです。
+```
 ### TAG
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 TAG_ID|number(12)|Yes|No|
 KEYWORD|nvarchar2(256)|No|No|
-REFERENCED_COUNTING|number(6)|No|No|
+REFERENCED_COUNTING|number(6)|No|No|被参照数
 LAST_MODIFIED_TIME|timestamp|No|No|
 
+```
+テーブルです。
+```
 ### BOOK_AUTHOR
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 BOOK_ID|number(12)|Yes|No|
 AUTHOR_ID|number(12)|Yes|No|
 
+```
+テーブルです。
+```
 ### BOOK_TAG
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 BOOK_ID|number(12)|Yes|No|
 TAG_ID|number(12)|Yes|No|
 
+```
+テーブルです。
+```
 ### SERIES_TAG
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 SERIES_ID|number(12)|Yes|No|
 TAG_ID|number(12)|Yes|No|
 
+```
+テーブルです。
+```
 ### BOOKMARK
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
@@ -131,14 +164,20 @@ BOOK_ID|number(12)|No|No|
 PAGE_NO|nvarchar2(64)|No|No|
 CREATION_TIME|timestamp|No|No|
 
+```
+テーブルです。
+```
 ### READ_BOOK
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 BOOK_ID|number(12)|Yes|No|
 USER_ID|number(12)|Yes|No|
-READ_PAGE_FIELDS|nvarchar2(2048)|No|Yes|
+READ_PAGE_FIELDS|nvarchar2(2048)|No|Yes|既読ページを表すビットフィールド
 LAST_MODIFIED_TIME|timestamp|No|No|
 
+```
+テーブルです。
+```
 ### READ_HISTORY
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
@@ -148,50 +187,74 @@ BOOK_ID|number(12)|No|No|
 PAGE_NO|nvarchar2(64)|No|No|
 READ_TIME|timestamp|No|No|
 
+```
+テーブルです。
+```
 ### BOOKSHELF
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 BOOKSHELF_ID|number(12)|Yes|No|
 USER_ID|number(12)|No|No|
-JSON|nvarchar2(4096)|No|No|
+JSON|nvarchar2(4096)|No|No|本棚条件を表すJSON
 
+```
+テーブルです。
+```
 ### PERMISSION
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 USER_ID|number(12)|Yes|No|
-TARGET_RESOURCE|number(2)|Yes|No|
+TARGET_RESOURCE|number(2)|Yes|No|1:カテゴリ 2:シリーズ 3:ブック
 TARGET_ID|number(12)|Yes|No|
 
+```
+テーブルです。
+```
 ### USE_BOOK_SEARCH_SERVICE
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 SERVICE_ID|number(12)|Yes|No|
 PRIORITY|number(2)|No|Yes|
 
+```
+テーブルです。
+```
 ### CONFIGURATION
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 KEY|nvarchar2(64)|Yes|No|
 VALUE|nvarchar2(256)|No|Yes|
 
+```
+テーブルです。
+```
 ### EXCLUDE_WORD
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 WORD|nvarchar2(64)|Yes|No|
 LOCATE|nvarchar2(4)|No|No|
 
+```
+テーブルです。
+```
 ### IGNORE_FILE
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 ID|number(12)|No|No|
 FILE_PATH|nvarchar2(512)|Yes|No|
-HASH|nvarchar2(32)|Yes|No|
+HASH|nvarchar2(32)|Yes|No|MD5ハッシュ値
 
+```
+テーブルです。
+```
 ### DATABASE_UNIQUE_ID
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
 |UUID|nvarchar2(64)|Yes|No|
 
+```
+テーブルです。
+```
 ### BOOK_REVIEW
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
@@ -200,6 +263,10 @@ USER_ID|number(12)|Yes|No|
 COMMENT|nvarchar2(512)|No|Yes|
 RATING|number(1)|No|Yes|
 
+```
+ブックのレーティング、レビューを管理するテーブルです。
+v0.6.36時点では未使用です。
+```
 ### BOOK_CONFIGURATION
 |列名|型|PK|NULL|説明|
 |:-----------|:------------|:------------|:------------|:------------|
@@ -207,3 +274,8 @@ USER_ID|number(12)|Yes|No|
 BOOK_ID|number(12)|Yes|No|
 KEY|nvarchar2(64)|Yes|No|
 VALUE|nvarchar2(1024)|No|No|
+
+```
+ブック毎の設定を保存するテーブルです。
+v0.6.36時点では未使用です。
+```
