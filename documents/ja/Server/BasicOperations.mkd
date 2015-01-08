@@ -1,2 +1,8 @@
-Server
-==============
+# 基本操作
+
+- [カテゴリの管理](BasicOperations/ManagementCategory.mkd)
+- [シリーズの管理](BasicOperations/ManagementSeries.mkd)
+- [ブックの管理](BasicOperations/ManagementBook.mkd)
+- [著者の管理](BasicOperations/ManagementAuthor.mkd)
+- [出版社の管理](BasicOperations/ManagementPublisher.mkd)
+- [タグの管理](BasicOperations/ManagementTag.mkd)

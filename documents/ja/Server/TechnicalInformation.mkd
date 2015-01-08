@@ -1,2 +1,5 @@
-Server
-==============
+# 技術情報
+
+- [サーバーの構成](TechnicalInformation/SystemArchitecture.mkd)
+- [データベース](TechnicalInformation/Database.mkd)
+
