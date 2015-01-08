@@ -1,4 +1,7 @@
 # 技術情報
+ここではComicCafeサーバーについて技術的側面から解説します。  
+エンジニアでない一般のユーザーであれば読み飛ばして問題ありません。  
+通常利用では不要な説明になります。
 
 - [サーバーの構成](TechnicalInformation/SystemArchitecture.mkd)
 - [データベース](TechnicalInformation/Database.mkd)
