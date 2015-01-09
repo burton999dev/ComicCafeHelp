@@ -307,7 +307,7 @@ v0.6.36時点では未使用です。
 
 ## SQLの例
 以下は著者が設定されていないブックのファイル名の一覧を取得するSQLです。  
-結果をCSVに加工して、[著者のインポート]()を行い、[著者名の再解析]()を実行すれば、まとめて著者を設定できます。
+結果をCSVに加工して、[著者のインポート](../BasicOperations/Settings.mkd)を行い、[著者名の再解析](../BasicOperations/Tools.mkd)を実行すれば、まとめて著者を設定できます。
 
 ```sql
 SELECT DISTINCT B.FILE_PATH
