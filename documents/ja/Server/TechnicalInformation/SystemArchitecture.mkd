@@ -1,3 +1,17 @@
 # サーバーの構成
 
 ![ServerComponent](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ServerComponent.png)
+
+
+# 1
+![ServerComponent](/images/ja/ServerComponent.png)
+
+
+# 2
+![ServerComponent](../../../../images/ja/ServerComponent.png)
+
+# 3
+![ServerComponent](../../../images/ja/ServerComponent.png)
+
+# 4
+![ServerComponent](../../../../../images/ja/ServerComponent.png)
