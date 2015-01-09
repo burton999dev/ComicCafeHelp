@@ -1,15 +1,14 @@
 **[ComicCafe](https://play.google.com/store/apps/details?id=com.burton999.cc.client)**
 =============
 
-Android用コミックビューワアプリ **ComicCafe** の公式ヘルプです。  
-[日本語](#japanese)
-
-This document is the official document for **ComicCafe**.
+[日本語](#japanese)  
 [English](#english)
 
 ===
 
 **<a name ="japanese">目次</a>**  
+Android用コミックビューワアプリ **ComicCafe** の公式ヘルプです。  
+
 - [はじめに](documents/ja/Introduction.mkd)
 - [機能一覧](documents/ja/FeaturesList.mkd)
 - [リリースノート](documents/ja/ReleaseNote.mkd)
@@ -50,6 +49,8 @@ This document is the official document for **ComicCafe**.
 
 ===
 **<a name ="english">Contents</a>**  
+This document is the official document for **ComicCafe**.  
+
 - [Introduction](documents/en/Introduction.mkd)
 - [Features List](documents/en/FeaturesList.mkd)
 - [Release Note](documents/en/ReleaseNote.mkd)
