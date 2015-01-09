@@ -1,6 +1,8 @@
 # 基本操作
 ここではWeb管理画面の操作方法について説明します。
 
+- [インポート処理](BasicOperations/Server/BasicOperations/Import.mkd)
+- [設定](BasicOperations/Server/BasicOperations/Settings.mkd)
 - [カテゴリの管理](BasicOperations/ManagementCategory.mkd)
 - [シリーズの管理](BasicOperations/ManagementSeries.mkd)
 - [ブックの管理](BasicOperations/ManagementBook.mkd)

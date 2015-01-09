@@ -3,11 +3,11 @@
 エンジニアの方であれば、[技術情報](Server/TechnicalInformation.mkd)を読むことでさらに便利に使えるかもしれません。
 
 - [サーバーの起動](Server/Launch.mkd)
-- [インポート処理](Server/Import.mkd)
-- [設定](Server/Settings.mkd)
 - [Webサービス](Server/Webservice.mkd)
 - [拡張機能](Server/Extension.mkd)
 - [基本操作](Server/BasicOperations.mkd)
+	- [インポート処理](Server/BasicOperations/Import.mkd)
+	- [設定](Server/BasicOperations/Settings.mkd)
 	- [カテゴリの管理](Server/BasicOperations/ManagementCategory.mkd)
 	- [シリーズの管理](Server/BasicOperations/ManagementSeries.mkd)
 	- [ブックの管理](Server/BasicOperations/ManagementBook.mkd)
