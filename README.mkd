@@ -12,6 +12,7 @@ Android用コミックビューワアプリ **ComicCafe** の公式ヘルプで�
 - [はじめに](documents/ja/Introduction.mkd)
 - [機能一覧](documents/ja/FeaturesList.mkd)
 - [リリースノート](documents/ja/ReleaseNote.mkd)
+- [動作環境](documents/ja/SystemRequirements.mkd)
 - [インストール](documents/ja/Installation.mkd)
 - [ComicCafeサーバー](documents/ja/Server.mkd)
 	- [サーバーの起動](documents/ja/Server/Launch.mkd)
