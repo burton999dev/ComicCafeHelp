@@ -19,9 +19,21 @@
 
 # 概要
 
-以下はComicCafeの概要図になります。  
-PCの`HDD`に保存された大量の自炊ファイルをインポート(解析)して`Database`で管理しています。`Database`には自炊ファイル以外にも、著者、出版社、タグ、本棚、ブックマーク、閲覧履歴などの情報を管理していて、この`Database`を使ってクライアントからの検索要求を高速に処理しています。  
+## インポート
+まず、PCの`HDD`に保存された大量の自炊ファイルをインポート(解析)して`Database`に登録します。`Database`には自炊ファイルの情報以外にも、著者、出版社、タグ、本棚、ブックマーク、閲覧履歴などの情報を管理しています。  
+インポート処理は比較的負荷の高い処理で、処理時間を要します。
+
+![ArchitectureImport](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ArchitectureImport.png)
+
+## 検索
+クライアントからの検索要求はファイル検索ではなく、`Database`を検索することで処理されます。`Database`は複雑な条件の検索であっても高速に結果を返すことができます。
+
+![ArchitectureSearch](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ArchitectureSearch.png)
+
+## 読書
 クライアントに画像を送信する処理では、自炊ファイルをサーバー上で解凍して、画像をサーバーの`Cache`(メモリ or HDD)に展開します。そして画像をクライアントの要求に応じて加工してからクライアントに送信しています。  
 この仕組みによりクライアントに転送される画像は、クライアントの画面サイズに最適にリサイズされ、画像品質などが調整されたものになるので、オリジナル画像よりファイルサイズが小さい画像になります。転送するデータ量を削減できるのは4G/3G回線を使うユーザーにとっては大きなメリットになります。  
 また、この方式のデメリットはクライアントに画像が届いた時には画像はオリジナル画像よりも劣化した状態になっているので、そこからさらに拡大処理を行うと画像が非常に粗く表示されてしまいます。
+
+![ArchitectureRead](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ArchitectureRead.png)
 
