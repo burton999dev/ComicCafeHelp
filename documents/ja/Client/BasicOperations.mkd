@@ -1,3 +1,11 @@
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Information.png' width='25%' height='25%'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Main.png' width='25%' height='25%'/>
 
+
+
+- [キーワード検索](BasicOperations/KeywordSearch.mkd)
+- [カテゴリ検索](BasicOperations/CategorySearch.mkd)
+- [本棚](BasicOperations/Bookshelf.mkd)
+- [ダウンロード](BasicOperations/Download.mkd)
+- [ビューワー](BasicOperations/Viewer.mkd)
+- [その他](BasicOperations/Other.mkd)
