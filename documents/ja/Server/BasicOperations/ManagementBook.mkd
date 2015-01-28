@@ -1,2 +1,6 @@
 Server
 ==============
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/Book.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/BookSetAuthor.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/BookSetCover.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/BookSetPublisher.png)

@@ -1,2 +1,3 @@
 Server
 ==============
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/Tag.png)

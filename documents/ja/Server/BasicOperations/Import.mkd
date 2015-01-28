@@ -196,3 +196,7 @@ ComicCafeは圧縮ファイルの解凍に[7-Zip-JBinding](http://sevenzipjbind.
 そのようなファイルに遭遇した場合は、一度ファイルを任意のアーカイバーで解凍し、無圧縮Zipなどで再度圧縮してください。無圧縮Zipであれば間違いなく[7-Zip-JBinding](http://sevenzipjbind.sourceforge.net/)は処理することができます。  
 今のところ無視リストからデータを削除する処理は提供しておりません。どうしても削除したい場合は、自身でデータベースに[直接接続](../TechnicalInformation/Database.mkd)してSQLを実行してレコードを削除してください。
 
+## 操作方法
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/Import.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/ImportComplete.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/ImportProgress.png)
