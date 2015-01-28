@@ -1,4 +1,6 @@
-<img alt=”” src=”https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting1.png” width="50%" height="50%"/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting1.png' width='50%' height='50%' />
+
+
 ![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting2.png)
 ![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting3.png)
 ![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting4.png)
