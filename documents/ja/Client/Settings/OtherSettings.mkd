@@ -1,2 +1,2 @@
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/SettingsList.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/SettingsList2.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList2.png)

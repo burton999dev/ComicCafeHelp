@@ -1,7 +1,7 @@
 Server
 ==============
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/SettingImport.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/SettingSecurity.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/SettingSecurityAddUser.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/SettingSystem.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/SettingWebservice.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingImport.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingSecurity.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingSecurityAddUser.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingSystem.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingWebservice.png)

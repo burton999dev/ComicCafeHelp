@@ -1,4 +1,4 @@
 Server
 ==============
 
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/Author.png)
+![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Author.png)
