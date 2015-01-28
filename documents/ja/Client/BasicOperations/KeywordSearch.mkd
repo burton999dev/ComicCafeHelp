@@ -1,1 +1,2 @@
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/KerywordSearch.png)
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/KerywordSearch.png' width='25%' height='25%'/>
+

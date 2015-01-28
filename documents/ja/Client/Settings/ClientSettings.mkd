@@ -1,16 +1,16 @@
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList2.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsFunction.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsFunction2.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardware.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardwareKey.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsImExport.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsImExport2.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewer.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewer2.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerMenuOrder.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerTouch.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerTouch2.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsDownload.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsDownloadDir.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsScreen.png)
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList2.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsFunction.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsFunction2.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardware.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardwareKey.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsImExport.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsImExport2.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewer.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewer2.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerMenuOrder.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerTouch.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerTouch2.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsDownload.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsDownloadDir.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsScreen.png' width='25%' height='25%'/>
