@@ -27,7 +27,7 @@ Android用コミックビューワアプリ **ComicCafe** の公式ヘルプで�
 		- [ツール](documents/ja/Server/BasicOperations/Tools.mkd)
 		- [設定](documents/ja/Server/BasicOperations/Settings.mkd)
 	- [パーミッション](documents/ja/Server/Permission.mkd)
-	- [Webサービス](documents/ja/Server/Webservice.mkd)
+	- [Webサービス連携](documents/ja/Server/Webservice.mkd)
 	- [技術情報](documents/ja/Server/TechnicalInformation.mkd)
 	    - [サーバーの構成](documents/ja/Server/TechnicalInformation/SystemArchitecture.mkd)
 	    - [データベース](documents/ja/Server/TechnicalInformation/Database.mkd)
