@@ -198,6 +198,6 @@ ComicCafeは圧縮ファイルの解凍に[7-Zip-JBinding](http://sevenzipjbind.
 
 ## 操作方法
 
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Import.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ImportComplete.png)
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ImportProgress.png)
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Import.png' width='40%' height='40%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ImportComplete.png' width='40%' height='40%'/>
+<img src='' width='40%' height='40%'/>
