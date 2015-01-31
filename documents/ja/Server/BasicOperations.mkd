@@ -1,10 +1,10 @@
 # 基本操作
 ここではWeb管理画面の操作方法について説明します。
 
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Login.png' width='80%' height='80%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Menubar.png' width='80%' height='80%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Main.png' width='80%' height='80%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SearchBook.png' width='80%' height='80%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Login.png'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Menubar.png'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Main.png'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SearchBook.png'/>
 
 
 - [インポート処理](BasicOperations/Server/BasicOperations/Import.mkd)

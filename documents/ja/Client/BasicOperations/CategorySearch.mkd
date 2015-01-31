@@ -1,13 +1,13 @@
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategorySearch.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategorySearch2.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/AuthorList.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookList.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookmarkList.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfList.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/HistoryList.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/PublisherList.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SeriesList.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/LatestList.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategoryList.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfList2.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/TagList.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategorySearch.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategorySearch2.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/AuthorList.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookList.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookmarkList.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfList.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/HistoryList.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/PublisherList.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SeriesList.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/LatestList.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategoryList.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfList2.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/TagList.png' width='300px'/>
