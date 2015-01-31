@@ -1,3 +1,3 @@
 Server
 ==============
-![Permission](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Tag.png)
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Tag.png' width='80%' height='80%'/>
