@@ -19,15 +19,15 @@
 
 |メニュー|説明|
 |:-----------|:------------|
-![]()|[インポート処理](BasicOperations/Server/BasicOperations/Import.mkd)の画面を表示します。
-![]()|[著者の管理](BasicOperations/ManagementAuthor.mkd)の画面を表示します。
-![]()|[出版社の管理](BasicOperations/ManagementPublisher.mkd)の画面を表示します。
-![]()|[タグの管理](BasicOperations/ManagementTag.mkd)の画面を表示します。
-![]()|[ツール](BasicOperations/Server/BasicOperations/Tools.mkd)の画面を表示します。
-![]()|[設定](BasicOperations/Server/BasicOperations/Settings.mkd)の画面を表示します。
-![]()|サーバーのダウンロードページを開きます。
-![]()|使用しているオープンソースライブラリのライセンスを表示します。
-![]()|このヘルプページを表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/book_add.png)|[インポート処理](BasicOperations/Server/BasicOperations/Import.mkd)の画面を表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/author_add.png)|[著者の管理](BasicOperations/ManagementAuthor.mkd)の画面を表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/publisher_add.png)|[出版社の管理](BasicOperations/ManagementPublisher.mkd)の画面を表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/tag_add.png)|[タグの管理](BasicOperations/ManagementTag.mkd)の画面を表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/tools.png)|[ツール](BasicOperations/Server/BasicOperations/Tools.mkd)の画面を表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/preferences.png)|[設定](BasicOperations/Server/BasicOperations/Settings.mkd)の画面を表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/download_server.png)|サーバーのダウンロードページを開きます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/info.png)|使用しているオープンソースライブラリのライセンスを表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/help.png)|このヘルプページを表示します。
 
 - [カテゴリの管理](BasicOperations/ManagementCategory.mkd)
 - [シリーズの管理](BasicOperations/ManagementSeries.mkd)
