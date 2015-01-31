@@ -1,7 +1,7 @@
 Server
 ==============
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingImport.png' width='80%' height='80%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingSecurity.png' width='80%' height='80%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingSecurityAddUser.png' width='80%' height='80%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingSystem.png' width='80%' height='80%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingWebservice.png' width='80%' height='80%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingImport.png'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingSecurity.png'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingSecurityAddUser.png'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingSystem.png'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingWebservice.png'/>

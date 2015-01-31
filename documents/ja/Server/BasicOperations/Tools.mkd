@@ -1,7 +1,7 @@
 Server
 ==============
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolBatch.png' width='80%' height='80%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolDemon.png' width='80%' height='80%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolExport.png' width='80%' height='80%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolImport.png' width='80%' height='80%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolBatch.png'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolDemon.png'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolExport.png'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolImport.png'/>
 

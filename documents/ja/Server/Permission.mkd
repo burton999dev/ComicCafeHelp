@@ -16,4 +16,4 @@ ComicCafeではパーミッションを設定することでユーザー毎に�
 アクセス権が誰にあるか調べる簡単な方法は、最下位層のブックから`Root`に向かってパーミッションを調べていき、パーミッションが設定されている`カテゴリ`または`シリーズ`が見つかったら、それが対象のブックに適用されるパーミッションになります。それより上位層のパーミッションは無視されます。  
 また、Rootまでパーミッションが設定されている`カテゴリ`または`シリーズ`が見つからない場合は、そのブックは全てのユーザーがアクセスできます。
 
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/Permission.png' width='80%' height='80%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/Permission.png'/>

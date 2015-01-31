@@ -1,3 +1,3 @@
 Server
 ==============
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Series.png' width='80%' height='80%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Series.png' width='800px'/>
