@@ -1,5 +1,5 @@
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Information.png' width='25%' height='25%'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Main.png' width='25%' height='25%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Information.png' width='110px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Main.png' width='110px'/>
 
 
 
