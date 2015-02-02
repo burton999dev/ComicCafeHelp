@@ -7,4 +7,4 @@
 - [本棚](BasicOperations/Bookshelf.mkd)
 - [ダウンロード](BasicOperations/Download.mkd)
 - [ビューワー](BasicOperations/Viewer.mkd)
-- [その他](BasicOperations/Information.mkd)
+- [サーバー・クライアントの情報](BasicOperations/Information.mkd)
