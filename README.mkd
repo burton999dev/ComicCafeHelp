@@ -39,7 +39,7 @@ Android用コミックビューワアプリ **ComicCafe** の公式ヘルプで�
 		- [本棚](documents/ja/Client/BasicOperations/Bookshelf.mkd)
 		- [ダウンロード](documents/ja/Client/BasicOperations/Download.mkd)
 		- [ビューワー](documents/ja/Client/BasicOperations/Viewer.mkd)
-		- [その他](documents/ja/Client/BasicOperations/Other.mkd)
+		- [その他](documents/ja/Client/BasicOperations/Information.mkd)
 	- [設定](documents/ja/Client/Settings.mkd)
 		- [サーバーの設定](documents/ja/Client/Settings/ServerSettings.mkd)
 		- [クライアントの設定](documents/ja/Client/Settings/ClientSettings.mkd)

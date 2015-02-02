@@ -11,11 +11,11 @@ ComicCafeでは検索条件を指定して本棚を作成することができ�
 
     <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting1.png' width='300px'/>
 
-1. 抽出条件を設定します。複数の条件を設定する場合は、`AND条件`や`OR条件`で囲む必要があります。抽出条件はアイコンをドラッグすることで順番を入れ替えることができます。既にある抽出条件を編集、削除したい場合は抽出条件をロングタップします。何も条件を設定しない場合は、全てのブックが検索されます。条件の設定が終わったら`次へ`をタップします。
+1. 抽出条件を設定します。抽出条件を追加するには右上にある`＋`のアイコンをタップします。複数の条件を設定する場合は、`AND条件`や`OR条件`で囲む必要があります。抽出条件はアイコンをドラッグすることで順番を入れ替えることができます。既にある抽出条件を編集、削除したい場合は抽出条件をロングタップします。何も条件を設定しない場合は、全てのブックが検索されます。条件の設定が終わったら`次へ`をタップします。
 
     <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting2.png' width='300px'/>
 
-1. ソート条件を設定します。ソートの対象となる項目と、昇順、降順かを設定します。ソート条件は複数設定することができ、上にあるソート条件から順に適用されます。ソート条件はアイコンをドラッグすることで順番を入れ替えることができます。既にあるソート条件を編集、削除したい場合は抽出条件をロングタップします。条件の設定が終わったら`次へ`をタップします。
+1. ソート条件を設定します。ソート条件を追加するには右上にある`＋`のアイコンをタップします。ソートの対象となる項目と、昇順、降順かを設定します。ソート条件は複数設定することができ、上にあるソート条件から順に適用されます。ソート条件はアイコンをドラッグすることで順番を入れ替えることができます。既にあるソート条件を編集、削除したい場合は抽出条件をロングタップします。条件の設定が終わったら`次へ`をタップします。
 
     <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting3.png' width='300px'/>
 
@@ -29,6 +29,29 @@ ComicCafeでは検索条件を指定して本棚を作成することができ�
 
 ## 本棚の抽出条件
 
+|条件|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_and.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_or.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_not.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_category.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_author.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_publisher.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_tag.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_completion.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_last_modified.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_recently.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_reading_progress.png)|
 
 ## 本棚のソート条件
+
+|条件|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_last_modified.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_category.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_book_title.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_series_title.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_author.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_publisher.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_tag.png)|
 

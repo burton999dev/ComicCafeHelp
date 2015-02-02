@@ -7,7 +7,7 @@
 	- [本棚](Client/BasicOperations/Bookshelf.mkd)
 	- [ダウンロード](Client/BasicOperations/Download.mkd)
 	- [ビューワー](Client/BasicOperations/Viewer.mkd)
-	- [その他](Client/BasicOperations/Other.mkd)
+	- [その他](Client/BasicOperations/Information.mkd)
 - [設定](Client/Settings.mkd)
 	- [サーバーの設定](Client/Settings/ServerSettings.mkd)
 	- [クライアントの設定](Client/Settings/ClientSettings.mkd)

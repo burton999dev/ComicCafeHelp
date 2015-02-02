@@ -1,4 +1,3 @@
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Information.png' width='300px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Main.png' width='300px'/>
 
 
@@ -8,4 +7,4 @@
 - [本棚](BasicOperations/Bookshelf.mkd)
 - [ダウンロード](BasicOperations/Download.mkd)
 - [ビューワー](BasicOperations/Viewer.mkd)
-- [その他](BasicOperations/Other.mkd)
+- [その他](BasicOperations/Information.mkd)
