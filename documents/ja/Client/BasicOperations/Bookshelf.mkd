@@ -57,4 +57,33 @@ ComicCafeでは検索条件を指定して本棚を作成することができ�
 
 ## 抽出条件の例
 
+1. カテゴリが `少年コミック` かつ `完結済み` かつ `30日以内` に追加されたブック
+
+    |条件|オペレーション|値|
+    |:--------:|:--------:|:--------:|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_and_start.png)|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_category.png)|=|`少年コミック`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_completion.png)|=|`完結`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_recently.png)|=|`30`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_and_end.png)|
+
+1. カテゴリが`少年コミック` か `少女コミック` でかつ `お気に入り` のタグが設定されているブック
+
+    |条件|オペレーション|値|
+    |:--------:|:--------:|:--------:|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_and_start.png)|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_or_start.png)|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_category.png)|=|`少年コミック`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_category.png)|=|`少女コミック`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_or_end.png)|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_tag.png)|=|`お気に入り`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_and_end.png)|
+
+
+
 ## 注意事項
+
+* あまり複雑な条件を指定しないでください。パフォーマンスが悪化してタイムアウトする可能性があります。
+* 本棚を作成後に、条件に設定した、著者や出版社、タグなどをサーバーで削除すると、状態が不正な本棚になる可能性があります。
+* 条件の論理的な検証はしていません。全く関連性の無い２つカテゴリをAnd条件で指定したりすると、絶対に結果がヒットしない本棚が作成できます。
+
