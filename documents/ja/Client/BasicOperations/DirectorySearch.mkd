@@ -2,10 +2,8 @@
 ディレクトリ検索は、`カテゴリ`や`著者`などの情報から辿ってブックを検索する手段を提供します。  
 [ランダム](#random)以外のディレクトリ検索は、最終的にブック一覧に辿り着くようになっています。
 
-<figure style='display: inline-block;'>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookList.png' width='300px'/>
-<figcaption style='text-align: center;font-weight: bold;'>ブック一覧</figcaption>
-</figure>
+
 ## <a name ="bookshelf">本棚</a>
 本棚は予め定義した条件でブックを検索する機能です。本棚は何個でも作成することができ、様々な条件を指定できるので、この機能を使いこなすことができれば基本的に [カテゴリ](#category)、[著者](#author)、[出版社](#publisher)、[タグ](#tag)、[新着](#latest) でのディレクトリ検索は不要になります。  
 本棚についての詳細な説明は[こちら](Bookshelf.mkd)を参照してください。
