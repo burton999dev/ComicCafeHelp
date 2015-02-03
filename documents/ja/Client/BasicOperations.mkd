@@ -1,4 +1,9 @@
+# クライアントの基本操作
+ここではクライアントの基本的な操作方法を説明します。ComicCafeを起動すると以下の様な画面が表示されます。画面上のアクションバーとタブの切り替えでComicCafeの全ての機能にアクセスすることができます。
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Main.png' width='300px'/>
+
+
 
 
 
@@ -8,3 +13,4 @@
 - [ダウンロード](BasicOperations/Download.mkd)
 - [ビューワー](BasicOperations/Viewer.mkd)
 - [サーバー・クライアントの情報](BasicOperations/Information.mkd)
+- [設定](Settings.mkd)

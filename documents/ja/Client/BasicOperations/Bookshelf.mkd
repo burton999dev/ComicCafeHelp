@@ -33,11 +33,11 @@ ComicCafeでは検索条件を指定して本棚を作成することができ�
 |:-----------|:------------|
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_and.png)|And条件です。このカッコに囲まれた複数の条件を全て満たすブックが抽出されます。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_or.png)|Or条件です。このカッコに囲まれた複数の条件のうち、１つでも満たすブックが抽出されます。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_not.png)|Not条件です。このカッコに囲まれた条件を満たさない場合にブックが抽出されます。カッコ内には複数の条件は指定できません。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_not.png)|Not条件です。このカッコに囲まれた条件を満たさない場合にブックが抽出されます。<BR>カッコ内には複数の条件は指定できません。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_category.png)|指定したカテゴリの属するブックを抽出します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_author.png)|指定した著者に関連づいているブックを抽出します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_publisher.png)|指定した出版社に関連づいているブックを抽出します。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_tag.png)|指定したタグに関連づいているブックを抽出します。タグはブックが属しているシリーズに設定されていても有効です。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_tag.png)|指定したタグに関連づいているブックを抽出します。<BR>タグはブックが属しているシリーズに設定されていても有効です。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_completion.png)|完結、未完結の条件を満たすブックを抽出します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_last_modified.png)|ブックの最終更新日と指定日を比較して条件に合致するブックを抽出します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_recently.png)|指定した日数以内に作成、更新されたブックを抽出します。
@@ -48,7 +48,7 @@ ComicCafeでは検索条件を指定して本棚を作成することができ�
 |条件|説明|
 |:-----------|:------------|
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_last_modified.png)|ブックの最終更日時でソートします。最終更新日は最後にインポートやブックの編集をした日時です。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_category.png)|ブックが属するカテゴリのIDでソートします。例えば掲載雑誌のカテゴリで管理している場合、結果は掲載雑誌毎にまとまって標示されるようになります。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_category.png)|ブックが属するカテゴリのIDでソートします。<BR>例えば掲載雑誌のカテゴリで管理している場合、結果は掲載雑誌毎にまとまって標示されるようになります。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_book_title.png)|ブックのタイトルでソートします。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_series_title.png)|ブックが属しているシリーズでソートします。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_author.png)|ブックに設定されている著者のIDでソートします。
