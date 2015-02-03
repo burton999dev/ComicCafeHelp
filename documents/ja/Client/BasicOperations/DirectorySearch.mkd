@@ -1,9 +1,5 @@
 # ディレクトリ検索
-ディレクトリ検索は、`カテゴリ`や`著者`などの情報から辿ってブックを検索する手段を提供します。
-
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategorySearch.png' width='300px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategorySearch2.png' width='300px'/>
-<BR>
+ディレクトリ検索は、`カテゴリ`や`著者`などの情報から辿ってブックを検索する手段を提供します。  
 [ランダム](#random)以外のディレクトリ検索は、最終的にブックの一覧に辿り着くようになっています。
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookList.png' width='300px'/>
@@ -18,6 +14,7 @@
 ## <a name ="category">カテゴリ</a>
 ルートのカテゴリから辿ってブックを検索する機能です。PC上でツリー構造のフォルダを検索しているイメージです。
 
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/DirectorySearchBookshelf.png' width='300px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategoryList.png' width='300px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SeriesList.png' width='300px'/>
 
