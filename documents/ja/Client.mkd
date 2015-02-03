@@ -3,7 +3,7 @@
 
 - [基本操作](Client/BasicOperations.mkd)
 	- [キーワード検索](Client/BasicOperations/KeywordSearch.mkd)
-	- [カテゴリ検索](Client/BasicOperations/CategorySearch.mkd)
+	- [ディレクトリ検索](Client/BasicOperations/DirectorySearch.mkd)
 	- [本棚](Client/BasicOperations/Bookshelf.mkd)
 	- [ダウンロード](Client/BasicOperations/Download.mkd)
 	- [ビューワー](Client/BasicOperations/Viewer.mkd)

@@ -35,7 +35,7 @@ Android用コミックビューワアプリ **ComicCafe** の公式ヘルプで�
 - [ComicCafeクライアント](documents/ja/Client.mkd)
 	- [基本操作](documents/ja/Client/BasicOperations.mkd)
 		- [キーワード検索](documents/ja/Client/BasicOperations/KeywordSearch.mkd)
-		- [カテゴリ検索](documents/ja/Client/BasicOperations/CategorySearch.mkd)
+		- [ディレクトリ検索](documents/ja/Client/BasicOperations/DirectorySearch.mkd)
 		- [本棚](documents/ja/Client/BasicOperations/Bookshelf.mkd)
 		- [ダウンロード](documents/ja/Client/BasicOperations/Download.mkd)
 		- [ビューワー](documents/ja/Client/BasicOperations/Viewer.mkd)
