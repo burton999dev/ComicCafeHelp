@@ -5,16 +5,15 @@
 
 
 ## 詳細条件
-キーワードだけでなく、ブックの状態を条件にして検索することもできます。
+キーワードだけでなく、ブックの状態を条件にして検索することもできます。  
+キーワードと同時に条件を指定した場合は両方の条件を満たすブックが抽出されます。
 
 |条件|説明|
 |:-----------|:------------|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_completed.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_uncompleted.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_missing_issue.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_unknown_isbn.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_unknown_author.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_unknown_publisher.png)|
-
-
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_completed.png)|シリーズが完結しているブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_uncompleted.png)|シリーズが完結していないブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_missing_issue.png)|巻数が歯抜けになっているブックを抽出します。歯抜けとは`1巻、2巻、4巻`のように3巻抜けてるような状態を意味します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_unknown_isbn.png)|ISBNが設定されていないブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_unknown_author.png)|著者が設定されていないブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_unknown_publisher.png)|出版社が設定されていないブックを抽出します。
 
