@@ -1,13 +1,53 @@
+# ディレクトリ検索
+ディレクトリ検索は、`カテゴリ`や`著者`などの情報から辿ってブックを検索する手段を提供します。
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategorySearch.png' width='300px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategorySearch2.png' width='300px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/AuthorList.png' width='300px'/>
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookList.png' width='300px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookmarkList.png' width='300px'/>
+
+## 本棚
+本棚は予め定義した条件でブックを検索する機能です。本棚は何個でも作成することができ、様々な条件を指定できるので、この機能を使いこなすことができれば基本的に `カテゴリ`、`著者`、`出版社`、`タグ`、`新着` でのディレクトリ検索は不要になります。  
+本棚についての詳細な説明は[こちら](Bookshelf.mkd)を参照してください。
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfList.png' width='300px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/HistoryList.png' width='300px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/PublisherList.png' width='300px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SeriesList.png' width='300px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/LatestList.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfView.png' width='300px'/>
+
+## カテゴリ
+ルートのカテゴリから辿ってブックを検索する機能です。PC上でツリー構造のフォルダを検索しているイメージです。
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategoryList.png' width='300px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfList2.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SeriesList.png' width='300px'/>
+
+## 著者
+著者からブックを検索する機能です。ブックに関連づいている著者のみ一覧に表示されます。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/AuthorList.png' width='300px'/>
+
+## 出版社
+出版社からブックを検索する機能です。ブックに関連づいている出版社のみ一覧に表示されます。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/PublisherList.png' width='300px'/>
+
+## タグ
+タグからブックを検索する機能です。ブックに関連づいているタグのみ一覧に表示されます。
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/TagList.png' width='300px'/>
+
+## ブックマーク
+ブックマークからブックを検索する機能です。ブックマークは[ビューワー](Viewer.mkd)から作成することができます。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookmarkList.png' width='300px'/>
+
+## 履歴
+閲覧履歴からブックを検索する機能です。履歴の最大表示件数は256件で[設定](../Settings/ClientSettings.mkd)から変更することができます。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/HistoryList.png' width='300px'/>
+
+## 新着
+最近追加・更新されたブックを検索する機能です。新着の最大表示件数は256件で[設定](../Settings/ClientSettings.mkd)から変更することができます。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/LatestList.png' width='300px'/>
+
+## ランダム
+全てのブックの中からランダムで選択されたブックを[ビューワー](Viewer.mkd)で表示します。ブックは`未読`かつ`巻数が1巻`のものが選択されます。
