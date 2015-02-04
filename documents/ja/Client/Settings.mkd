@@ -1,8 +1,8 @@
 # クライアントの設定
 設定項目は大きく分けて、`サーバーの設定`, `クライアントの設定`, `その他の設定`があります。
 
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList.png' width='300px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList2.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList.png' width='250px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList2.png' width='250px'/>
 
 
 1. [サーバーの設定](Settings/ServerSettings.mkd)  

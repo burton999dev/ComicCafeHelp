@@ -5,27 +5,27 @@ ComicCafeでは検索条件を指定して本棚を作成することができ�
 
 1. `ディレクトリ検索`から本棚をタップして本棚一覧を標示します。右上にある`本棚の追加`のアイコンをタップします。
 
-    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting0.png' width='300px'/>
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting0.png' width='250px'/>
 
 1. 本棚の`名前`、`表示順`、`アイコン`を入力して`次へ`をタップします。なお、`表示順`が同じ本棚は`名前`でソートされます。
 
-    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting1.png' width='300px'/>
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting1.png' width='250px'/>
 
 1. 抽出条件を設定します。抽出条件を追加するには右上にある`＋`のアイコンをタップします。複数の条件を設定する場合は、`AND条件`や`OR条件`で囲む必要があります。抽出条件はアイコンをドラッグすることで順番を入れ替えることができます。既にある抽出条件を編集、削除したい場合は抽出条件をロングタップします。何も条件を設定しない場合は、全てのブックが検索されます。条件の設定が終わったら`次へ`をタップします。
 
-    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting2.png' width='300px'/>
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting2.png' width='250px'/>
 
 1. ソート条件を設定します。ソート条件を追加するには右上にある`＋`のアイコンをタップします。ソートの対象となる項目と、昇順、降順かを設定します。ソート条件は複数設定することができ、上にあるソート条件から順に適用されます。ソート条件はアイコンをドラッグすることで順番を入れ替えることができます。既にあるソート条件を編集、削除したい場合は抽出条件をロングタップします。条件の設定が終わったら`次へ`をタップします。
 
-    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting3.png' width='300px'/>
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting3.png' width='250px'/>
 
 1. 本棚の条件の確認画面が標示されます。条件が正しく設定されていることを確認して、`OK`をタップします。本棚は後から修正、削除することができます。
 
-    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting4.png' width='300px'/>
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting4.png' width='250px'/>
 
 1. 本棚の作成に成功すると、本棚一覧画面に遷移します。作成した新しい本棚が確認できます。
 
-    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfList2.png' width='300px'/>
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfList2.png' width='250px'/>
 
 ## 本棚の抽出条件
 

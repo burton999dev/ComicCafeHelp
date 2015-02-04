@@ -2,7 +2,7 @@
 ここではクライアントの基本的な操作方法を説明します。ComicCafeを起動すると以下の様な画面が表示されます。  
 画面上の`アクションバー`と`タブ`の切り替えでComicCafeの全ての機能にアクセスすることができます。
 
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Main.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Main.png' width='250px'/>
 
 ## アクションバー
 

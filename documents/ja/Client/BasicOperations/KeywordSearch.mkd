@@ -1,7 +1,7 @@
 # キーワード検索
 ブックを任意のキーワードで検索することができます。入力されたキーワードは`ブックのタイトル`、`シリーズのタイトル`、`著者名`、`タグ`に対してマッチングが行われます。マッチングは、ひらがな・カタカナの違いや大文字・小文字の違いを無視して実行されます。
 
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/KerywordSearch.png' width='300px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/KerywordSearch.png' width='250px'/>
 
 
 ## 詳細条件
