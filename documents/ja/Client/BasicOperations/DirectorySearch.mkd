@@ -2,9 +2,9 @@
 ディレクトリ検索は、`カテゴリ`や`著者`などの情報から辿ってブックを検索する手段を提供します。  
 [ランダム](#random)以外のディレクトリ検索は、最終的にブック一覧に辿り着くようになっています。
 
-<table style='border:none;'>
-<tr><td style='text-align:center'>ssss</td></tr>
-<tr><td>
+<table style="border: none;">
+<tr style="border: none;"><td style="text-align:center">ssss</td></tr>
+<tr style="border: none;"><td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookList.png' width='300px'/>
 </td></tr>
 </table>
