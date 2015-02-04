@@ -1,15 +1,20 @@
 # ディレクトリ検索
-ディレクトリ検索は、`カテゴリ`や`著者`などの情報から辿ってブックを検索する手段を提供します。  
-[ランダム](#random)以外のディレクトリ検索は、最終的にブック一覧に辿り着くようになっています。
+ディレクトリ検索は、`カテゴリ`や`著者`などの情報からリストを辿ってブックを検索する手段を提供します。  
+[ランダム](#random)以外のディレクトリ検索は、最終的にブック一覧に辿り着くようになっています。  
+各一覧画面でロングタップすると[コンテキストメニュー](#context_menu)が表示され、選択した項目に対して様々な操作を行うことができます。
 
 <table border='0'>
 <tr>
 <td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookList.png' width='250px'/>
 </td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookListContextMenu.png' width='250px'/>
+</td>
 </tr>
 <tr>
 <td align='center'>ブック一覧</td>
+<td align='center'>コンテキストメニュー</td>
 </tr>
 </table>
 
@@ -179,3 +184,25 @@
 <td align='center'>ディレクトリ検索</td>
 </tr>
 </table>
+
+
+## <a name ="context_menu">コンテキストメニュー</a>
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_cancel.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_clear.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_copy.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_delete.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_download.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_edit.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_open_book.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_pause.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_resume.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_author.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_completed.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_publisher.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_read.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_tag.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_uncompleted.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_unread.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_show_book_info.png)|
