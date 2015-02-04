@@ -187,22 +187,19 @@
 
 
 ## <a name ="context_menu">コンテキストメニュー</a>
+一覧画面で項目をロングタップすることでコンテキストメニューが表示されます。表示されるメニューはロングタップした項目によって異なります。  
+操作は下位のブックに伝搬します。例えばカテゴリをロングタップして`著者の設定`の操作をした場合、そのカテゴリに属する全てのブックに指定した著者が設定されます。
+
 |メニュー|説明|
 |:-----------|:------------|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_cancel.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_clear.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_copy.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_delete.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_download.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_edit.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_open_book.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_pause.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_resume.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_author.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_completed.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_publisher.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_read.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_tag.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_uncompleted.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_unread.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_show_book_info.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_author.png)|著者を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_publisher.png)|出版社を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_tag.png)|タグを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_read.png)|ブックを既読に設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_unread.png)|ブックを未読に設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_download.png)|自炊ファイルをダウンロードします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_show_book_info.png)|書籍情報を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_completed.png)|シリーズを完結に設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_uncompleted.png)|シリーズを未完結に設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_delete.png)|選択した項目を削除します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_clear.png)|表示されている全ての項目を削除します。

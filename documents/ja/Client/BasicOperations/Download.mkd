@@ -2,3 +2,12 @@
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Download.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Download2.png' width='250px'/>
+
+
+## <a name ="context_menu">コンテキストメニュー</a>
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_open_book.png)|ダウンロードした自炊ファイルを他のビューワーで開きます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_cancel.png)|ダウンロードをキャンセルします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_pause.png)|ダウンロードを一時中断します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_resume.png)|中断中のダウンロードを再開します。

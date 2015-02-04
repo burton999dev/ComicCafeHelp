@@ -3,3 +3,11 @@
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsServer.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsServerOperation.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/AccountList.png' width='250px'/>
+
+
+## <a name ="context_menu">コンテキストメニュー</a>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_copy.png)|選択した項目をコピーします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_edit.png)|選択した項目を編集します。
