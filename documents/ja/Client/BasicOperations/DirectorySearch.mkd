@@ -13,7 +13,6 @@
 </tr>
 </table>
 
-
 ## <a name ="bookshelf">本棚</a>
 本棚は予め定義した条件でブックを検索する機能です。本棚は何個でも作成することができ、様々な条件を指定できるので、この機能を使いこなすことができれば基本的に [カテゴリ](#category)、[著者](#author)、[出版社](#publisher)、[タグ](#tag)、[新着](#latest) でのディレクトリ検索は不要になります。  
 本棚についての詳細な説明は[こちら](Bookshelf.mkd)を参照してください。
@@ -37,50 +36,146 @@
 </tr>
 </table>
 
-
 ## <a name ="category">カテゴリ</a>
 ルートのカテゴリから辿ってブックを検索する機能です。PC上でツリー構造のフォルダを検索しているイメージです。
+
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/DirectorySearchCategory.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/CategoryList.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SeriesList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>カテゴリ一覧</td>
+<td align='center'>シリーズ一覧</td>
+</tr>
+</table>
 
 ## <a name ="author">著者</a>
 著者からブックを検索する機能です。ブックに関連づいている著者のみ一覧に表示されます。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/DirectorySearchAuthor.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/AuthorList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>著者一覧</td>
+</tr>
+</table>
 
 ## <a name ="publisher">出版社</a>
 出版社からブックを検索する機能です。ブックに関連づいている出版社のみ一覧に表示されます。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/DirectorySearchPublisher.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/PublisherList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>出版社一覧</td>
+</tr>
+</table>
 
 ## <a name ="tag">タグ</a>
 タグからブックを検索する機能です。ブックに関連づいているタグのみ一覧に表示されます。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/DirectorySearchTag.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/TagList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>タグ一覧</td>
+</tr>
+</table>
 
 ## <a name ="bookmark">ブックマーク</a>
 ブックマークからブックを検索する機能です。ブックマークは[ビューワー](Viewer.mkd)から作成することができます。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/DirectorySearchBookmark.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookmarkList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>ブックマーク一覧</td>
+</tr>
+</table>
 
 ## <a name ="history">履歴</a>
 閲覧履歴からブックを検索する機能です。履歴の最大表示件数は256件で[設定](../Settings/ClientSettings.mkd)から変更することができます。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/DirectorySearchHistory.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/HistoryList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>履歴一覧</td>
+</tr>
+</table>
 
 ## <a name ="latest">新着</a>
 最近追加・更新されたブックを検索する機能です。新着の最大表示件数は256件で[設定](../Settings/ClientSettings.mkd)から変更することができます。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/DirectorySearchLatest.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/LatestList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>新着一覧</td>
+</tr>
+</table>
 
 ## <a name ="random">ランダム</a>
 全てのブックの中からランダムで選択されたブックを[ビューワー](Viewer.mkd)で表示します。ブックは`未読`かつ`巻数が1巻`のものが選択されます。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/DirectorySearchRandom.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+</tr>
+</table>

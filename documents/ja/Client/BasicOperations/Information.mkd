@@ -1,4 +1,8 @@
 # サーバー・クライアントの情報
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Information.png' width='250px'/>
+<br>
+
 サーバーとの接続が確立されている場合、サーバーの情報を標示できます。表示できる情報は以下の通りです。
 
 * サーバーの情報
@@ -14,7 +18,3 @@
     * Androidのバージョン
     * 機種名
     * AndoridID
-
-<br>
-
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Information.png' width='250px'/>
