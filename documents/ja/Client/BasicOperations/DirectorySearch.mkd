@@ -3,10 +3,14 @@
 [ランダム](#random)以外のディレクトリ検索は、最終的にブック一覧に辿り着くようになっています。
 
 <table border='0'>
-<tr border='0'><td align='center'>ssss</td></tr>
-<tr border='0'><td>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookList.png' width='300px'/>
-</td></tr>
+</td>
+</tr>
+<tr>
+<td align='center'>ブック一覧</td>
+</tr>
 </table>
 
 
@@ -14,9 +18,25 @@
 本棚は予め定義した条件でブックを検索する機能です。本棚は何個でも作成することができ、様々な条件を指定できるので、この機能を使いこなすことができれば基本的に [カテゴリ](#category)、[著者](#author)、[出版社](#publisher)、[タグ](#tag)、[新着](#latest) でのディレクトリ検索は不要になります。  
 本棚についての詳細な説明は[こちら](Bookshelf.mkd)を参照してください。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/DirectorySearchBookshelf.png' width='300px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfList.png' width='300px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfView.png' width='300px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>本棚一覧</td>
+<td align='center'>シリーズ一覧</td>
+</tr>
+</table>
+
 
 ## <a name ="category">カテゴリ</a>
 ルートのカテゴリから辿ってブックを検索する機能です。PC上でツリー構造のフォルダを検索しているイメージです。
