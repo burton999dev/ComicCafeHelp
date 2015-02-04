@@ -3,8 +3,8 @@
 [ランダム](#random)以外のディレクトリ検索は、最終的にブック一覧に辿り着くようになっています。
 
 <table border='0'>
-<tr><td align='center'>ssss</td></tr>
-<tr><td>
+<tr border='0'><td align='center'>ssss</td></tr>
+<tr border='0'><td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookList.png' width='300px'/>
 </td></tr>
 </table>
