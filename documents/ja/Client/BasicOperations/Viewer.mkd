@@ -1,6 +1,45 @@
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerMain.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerTouch.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ビューワー</td>
+<td align='center'>タッチ操作</td>
+</tr>
+</table>
+
+
+
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerShowMenu.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerMenu.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerMenu2.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'></td>
+<td align='center'></td>
+<td align='center'></td>
+</tr>
+</table>
+
+
+
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerJumpPage.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerListBooks.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerMain.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerMenu.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerMenu2.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerPageSelector.png' width='250px'/>
+
