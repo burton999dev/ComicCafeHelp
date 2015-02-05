@@ -1,10 +1,37 @@
 # ダウンロード
+ComicCafeはサーバーと通信することを前提としており、サーバーと通信できない状況では漫画を読むことができません。しかし病院の待合室で長時間`機内モード`に設定しなければいけない場合など、オフラインの状態で読書を楽しみたいケースがあります。  
+このようなシチュエーションに対応するため、ComicCafeでは自炊ファイルのダウンロードをサポートしています。事前に読みたい本を端末にダウンロードしておけば、`機内モード`中でも他のビューワーを使って読書を楽しむことができます。  
+残念ながらComicCafeでローカルのファイルを読むことはできませんが、Androidには無料の優れたコミックビューワーがたくさんあります。個人的には[Perfect Viewer](https://play.google.com/store/apps/details?id=com.rookiestudio.perfectviewer&hl=ja)と[ComittoN](https://play.google.com/store/apps/details?id=jp.dip.muracoro.comitton&hl=ja)がオススメです。いずれも無料の素晴らしいコミックビューワーです。  
+この画面ではダウンロードの状況の確認、キャンセル、一時停止、再開などの操作を行うことができます。ダウンロードの開始は検索画面のコンテキストメニューから実行することができます。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Download.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Download2.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ダウンロード状況一覧</td>
+<td align='center'>コンテキストメニュー</td>
+</tr>
+</table>
+
+
+## アクションバー
+
+|アイコン|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_delete_file.png)|表示されているダウンロードの履歴を削除します。ダウンロードしたファイル自体は削除されません。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_trashcan.png)|デバイス内に保存されているダウンロード済みのファイルを削除します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_preferences.png)|[設定](Settings.mkd)画面に遷移します。初回起動後は、まずサーバーの設定をおこなってください。
 
 
 ## <a name ="context_menu">コンテキストメニュー</a>
+ダウンロードの一覧画面で項目をロングタップすることでコンテキストメニューが表示されます。表示されるメニューはロングタップした項目の状態によって異なります。  
+
 |メニュー|説明|
 |:-----------|:------------|
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_open_book.png)|ダウンロードした自炊ファイルを他のビューワーで開きます。
