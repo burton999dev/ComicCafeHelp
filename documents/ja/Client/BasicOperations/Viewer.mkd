@@ -1,3 +1,4 @@
+# ビューワー
 
 <table border='0'>
 <tr>
@@ -15,8 +16,6 @@
 </table>
 
 
-
-
 <table border='0'>
 <tr>
 <td>
@@ -30,16 +29,129 @@
 </td>
 </tr>
 <tr>
-<td align='center'></td>
-<td align='center'></td>
-<td align='center'></td>
+<td align='center'>メニューの表示方法</td>
+<td align='center'>メニュー１</td>
+<td align='center'>メニュー２</td>
 </tr>
 </table>
 
 
 
-
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerJumpPage.png' width='250px'/>
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerListBooks.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerJumpPage.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/ViewerPageSelector.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>関連したブックの一覧</td>
+<td align='center'>指定ページにジャンプ</td>
+<td align='center'>ページセレクタ</td>
+</tr>
+</table>
+
+
+## <a name ="">メニュー</a>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_add_bookmark.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_back_page.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_compression_quality.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_contrast.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_download.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_file_sorting_mode.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_forward_page.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_move_first.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_move_page.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_preferences.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_reload.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_author.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_category.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_series.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_set_cover_image.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_set_tag.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_sharpness_off.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_sharpness_on.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_show_book_info.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_split_offset.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_start_slideshow.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_stop_slideshow.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins.png)|
+
+### <a name ="">読む方向</a>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_left_to_right.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_right_to_left.png)|
+
+### <a name ="">ページエフェクト</a>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_normal_page.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_merge_page.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_split_page.png)|
+
+### <a name ="">PDFライブラリ</a>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_pdfbox.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_pdfrenderer.png)|
+
+### <a name ="">画像スケール</a>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_fit_screen.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_fit_width.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_fit_height.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_original_size.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_full_screen.png)|
+
+### <a name ="">画像平滑化方法</a>
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_bicubic.png)
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_bilinear.png)
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_lanczos3.png)
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_nearest_neighbor.png)
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_area_averaging.png)
+
+### <a name ="">画像の回転</a>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_rotate_0.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_rotate_90.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_rotate_180.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_rotate_270.png)|
+
+### <a name ="">空白を除去</a>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_off.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_lv1.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_lv2.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_lv3.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_lv4.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_lv5.png)|
+
+### <a name ="">画像のソート方法</a>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_file_sorting_mode_num.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_file_sorting_mode_pad.png)|
+
+
+
+
 
