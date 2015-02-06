@@ -20,6 +20,25 @@
 </tr>
 </table>
 
+## タッチ操作、ハードウェアキーで呼び出せる操作
+|操作|説明|
+|:-----------|:------------|
+次のページを表示|次のページに移動します。最終ページの場合は次のブックに移動します。
+前のページを表示|前のページに移動します。最初のページの場合は前のブックに移動します。
+次のブックを表示|次の巻のブックに移動します。
+前のブックを表示|前の巻のブックに移動します。
+サイドメニューを表示|サイドメニューを表示します。
+ブック情報を表示|ブック情報をダイアログ表示します。
+ページセレクタを表示|ページセレクタを表示します。ページセレクタを使ってサムネイルを見ながらページ移動することができます。
+指定ページへ移動|ページ番号を指定して移動します。
+ページ番号を表示|現在表示しているページ番号をトーストで表示します。
+同じ作者のブック一覧を表示|現在開いているブックと同じ作者のブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
+同じカテゴリのブック一覧を表示|現在開いているブックと同じカテゴリのブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
+同じシリーズのブック一覧を表示|現在開いているブックと同じシリーズのブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
+ブックマークに追加|現在表示しているページをブックマークに登録します。
+タグの設定|現在開いているブックにタグを設定します。
+ページの再読み込み|現在表示しているページを再読み込みします。読み込みに失敗した時に使用します。
+
 ## ビューワーの設定
 ビューワーには様々な設定項目がありますが、[サイドメニュー](#side_menu)から設定するものと、[クライアントの設定](../Settings/ClientSettings.mkd)から設定するものの２種類があります。  
 [サイドメニュー](#side_menu)はビューワーの左部分を右にスワイプするか、`メニューボタン`を押すことで表示されます。[サイドメニュー](#side_menu)から設定できる項目は、基本的に表示中の画像に対して影響を与えるものや、表示中の本に対して操作を行う項目になります。それ以外のビューワーの共通の設定などは[クライアントの設定](../Settings/ClientSettings.mkd)から設定します。
@@ -54,13 +73,13 @@
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_set_cover_image.png)|現在表示しているページを表紙画像に設定します。設定された画像は一覧画面で表紙として表示されます。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_show_book_info.png)|現在開いているブックの書籍情報を表示します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_reload.png)|現在表示しているページを再読み込みします。読み込みに失敗した時に使用します。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_move_first.png)|ブックの最初のページにジャンプします。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_move_page.png)|指定したページにジャンプします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_move_first.png)|ブックの最初のページに移動します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_move_page.png)|指定したページに移動します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_back_page.png)|自動見開き表示が有効な場合に、結合する画像を1枚分後ろにずらします。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_forward_page.png)|自動見開き表示が有効な場合に、結合する画像を1枚分前にずらします。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_author.png)|現在開いているブックと同じ作者のブック一覧を表示します。一覧からブックを選択することで、そのブックを開くことができます。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_category.png)|現在開いているブックと同じカテゴリのブック一覧を表示します。一覧からブックを選択することで、そのブックを開くことができます。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_series.png)|現在開いているブックと同じシリーズのブック一覧を表示します。一覧からブックを選択することで、そのブックを開くことができます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_author.png)|現在開いているブックと同じ作者のブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_category.png)|現在開いているブックと同じカテゴリのブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_series.png)|現在開いているブックと同じシリーズのブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_compression_quality.png)|画像の品質を調整します。品質を落とすと画像の表示は粗くなりますが、サーバーとの通信量を減らすことができます。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_contrast.png)|画像のコントラストを調整します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_split_offset.png)|自動単ページが有効な場合に、画像を分割する位置を調整します。
