@@ -26,7 +26,7 @@ ComicCafeはサーバーと通信することを前提としており、サー�
 |:-----------|:------------|
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_delete_file.png)|表示されているダウンロードの履歴を削除します。ダウンロードしたファイル自体は削除されません。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_trashcan.png)|デバイス内に保存されているダウンロード済みのファイルを削除します。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_preferences.png)|[設定](Settings.mkd)画面に遷移します。初回起動後は、まずサーバーの設定をおこなってください。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_preferences.png)|[設定](../Settings.mkd)画面に遷移します。初回起動後は、まずサーバーの設定をおこなってください。
 
 
 ## <a name ="context_menu">コンテキストメニュー</a>
