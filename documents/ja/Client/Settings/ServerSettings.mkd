@@ -1,26 +1,77 @@
-|メニュー|説明|
-|:-----------|:------------|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_delete_broken_link.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_function.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_import_book.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_reanalyze_author.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_restart.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_setting.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_clear_server_cache.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_open_console.png)|
-
-
+# サーバの設定
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList2.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsServer.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsServerOperation.png' width='250px'/>
+
+|設定|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_setting.png)|[接続情報](#account_setting)の設定を行います。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_function.png)|様々な[サーバの操作](#server_operation)を実行することができます。
+
+## <a name ="account_setting">サーバとアカウント</a>
+接続情報は複数登録することができ、登録済みの接続情報のリストから選択することで簡単に切り替えることができます。  
+[アクションバー](#action_bar)から接続情報を新規に登録できます。また既存の接続情報をロングタップすることで[コンテキストメニュー](context_menu)が表示され、編集、削除、コピーすることができます。
+
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/AccountList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>接続情報一覧</td>
+</tr>
+</table>
+<BR>
 
+接続情報の登録ダイアログです。`*`が付いている項目は必須項目です。設定項目を入力して`OK`ボタンを押すと登録完了です。`テスト`ボタンを押すと入力した設定情報をComicCafeサーバに接続を試み、結果を表示します。
 
-## <a name ="context_menu">コンテキストメニュー</a>
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsServer.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'><a name ="register_dialog">接続情報登録</a></td>
+</tr>
+</table>
+
+|設定項目|説明|
+|:-----------|:------------|
+ホスト名(Wifi)|
+ポート番号(Wifi)|
+SSID|
+ユーザ名|
+パスワード|
+ホスト名(3G/4G)|
+ポート番号(3G/4G)|
+説明|
+
+### <a name ="action_bar">アクションバー</a>
+
+|アイコン|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_server_add.png)|[接続情報登録ダイアログ](#register_dialog)が表示され、接続情報を登録することができます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_server_search.png)|Wifiで接続中のLANからComicCafeサーバを検索します。サーバが見つかった場合はIPアドレスが自動入力され[接続情報登録ダイアログ](#register_dialog)が表示されます。<BR>使用しているルータなどによって検索に失敗することがあります。
+
+### <a name ="context_menu">コンテキストメニュー</a>
 
 |メニュー|説明|
 |:-----------|:------------|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_copy.png)|選択した項目をコピーします。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_edit.png)|選択した項目を編集します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_copy.png)|選択した接続情報をコピーします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_edit.png)|選択した接続情報を編集します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_delete.png)|選択した接続情報を削除します。<BR>現在アクティブな接続情報は削除できません。
+
+
+## <a name ="server_operation">サーバの操作</a>
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsServerOperation.png' width='250px'/>
+
+|設定|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_open_console.png)|ブラウザでWeb管理画面を開きます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_restart.png)|ComicCafeサーバを再起動します。<BR>この操作の実行後はComicCafeサーバが起動するまでアクセスできなくなります。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_clear_server_cache.png)|サーバにあるキャッシュをクリアします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_import_book.png)|ブックのインポート処理を実行します。<BR>インポートの基準となるディレクトリは以前Web管理画面からインポート処理をしたディレクトリになります。<BR>ディレクトリを指定してインポートしたい場合はWeb管理画面から実行してください。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_delete_broken_link.png)|リネームや削除によって、登録されているパスに自炊ファイルが存在しないブックを検索してデータベースから削除します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_reanalyze_author.png)|登録済みのブックのファイル名を再解析して著者を自動登録します。
