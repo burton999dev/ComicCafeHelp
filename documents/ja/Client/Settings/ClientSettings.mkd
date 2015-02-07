@@ -1,3 +1,40 @@
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_backlight.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_bookmark_delete.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_cover_image_size.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_disk_cache.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_disk_cache_clear.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_directory.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_notification.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_retry_count.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_set_read.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_full_screen.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_function.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_hard.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_hard_key.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_move_fast_speed.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_read_history_count.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_recently_count.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_rotate.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_screen.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_send_bug_report.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_clock_location.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_cover_image.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_filename.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_page_no_location.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_reading_progress.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_volume_no_location.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_wave_level_location.png.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_slideshow_speed.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_touch.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_enable_double_tap.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_initial_position.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_menu_order.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_wifi.png)|
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsFunction.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsFunction2.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardware.png' width='250px'/>

@@ -38,3 +38,17 @@ java [Javaの起動オプション] -jar comic-cafe-server.jar [ComicCafeの起�
 
 自身の環境に合わせてメモリ使用量などを調整してみてください。  
 メモリ量を増やすことでComicCafeサーバーの動作がより安定します。
+
+## 起動後に自動的に作成されるディレクトリとファイル
+ComicCafeServerの起動に成功すると`comic-cafe-server.jar`と同じディレクトリに以下のファイル・ディレクトリが作成されます。
+
+|ファイル|説明|
+|:-----------|:------------|
+comic-cafe.log|ComicCafeのアプリケーションログです。<BR>バグなどを報告する場合は圧縮して送っていただけると大変助かります。
+comic-cafe-access-rest-yyyy\_mm\_dd.log|RESTのアクセスログです。端末からのアクセスが記録されます。<BR>`-accesslog`オプションを有効にした場合のみ出力されます。
+comic-cafe-access-web-yyyy\_mm\_dd.log|Web管理画面のアクセスログです。<BR>`-accesslog`オプションを有効にした場合のみ出力されます。
+h2db/|ComicCafeServerが管理している全ての情報のデータが格納されています。絶対に削除しないでください。
+cache/|ComicCafeServerが画像などをキャシュするのに使用しています。
+
+
+

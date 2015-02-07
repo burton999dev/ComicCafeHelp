@@ -1,3 +1,16 @@
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_delete_broken_link.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_function.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_import_book.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_reanalyze_author.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_restart.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_setting.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_clear_server_cache.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_open_console.png)|
+
+
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList2.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsServer.png' width='250px'/>
