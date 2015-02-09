@@ -26,7 +26,7 @@
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_read_history_count.png)|[履歴一覧](../BasicOperations/DirectorySearch.mkd#history)での表示件数を設定します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_recently_count.png)|[新着一覧](../BasicOperations/DirectorySearch.mkd#latest)での表示件数を設定します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_send_bug_report.png)|ComicCafeがクラッシュした際にバグレポートを作者に送信するかどうかを設定します。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_disk_cache.png)|キャッシュのサイズをMBで設定します。キャッシュは先読みしたページ画像や表紙画像を保存するために使用されます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_disk_cache.png)|キャッシュのサイズをMBで設定します。<BR>キャッシュは先読みしたページ画像や表紙画像を保存するために使用されます。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_disk_cache_clear.png)|キャッシュを削除します。
 
 ## <a name ="screen_settings">スクリーン設定</a>
@@ -78,8 +78,21 @@
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_retry_count.png)|ダウンロードが失敗した場合のリトライ回数を設定します。
 
 
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardwareKey.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerMenuOrder.png' width='250px'/>
+## <a name ="">タッチ操作のカスタマイズ</a>
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerTouch.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerTouch2.png' width='250px'/>
+
+
+## <a name ="">ハードウェアキーのカスタマイズ</a>
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardwareKey.png' width='250px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardwareKey2.png' width='250px'/>
+
+## <a name ="">サイドメニューの順番のカスタマイズ</a>
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerMenuOrder.png' width='250px'/>
+
+## <a name ="">ダウンロードティレクトリの設定</a>
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsDownloadDir.png' width='250px'/>
