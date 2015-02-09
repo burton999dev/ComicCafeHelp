@@ -1,4 +1,5 @@
 # サーバの設定
+接続するComicCafeサーバの設定や、各種操作を実行することができます。
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList.png' width='250px'/>
 

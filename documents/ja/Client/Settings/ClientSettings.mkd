@@ -1,51 +1,85 @@
+# クライアントの設定
+
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList.png' width='250px'/>
+
 |メニュー|説明|
 |:-----------|:------------|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_backlight.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_bookmark_delete.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_cover_image_size.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_disk_cache.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_disk_cache_clear.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_directory.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_notification.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_retry_count.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_set_read.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_full_screen.png)|
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_function.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_hard.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_hard_key.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_move_fast_speed.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_read_history_count.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_recently_count.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_rotate.png)|
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_screen.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_send_bug_report.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_clock_location.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_cover_image.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_filename.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_page_no_location.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_reading_progress.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_volume_no_location.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_wave_level_location.png.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_slideshow_speed.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_touch.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_hard.png)|
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_enable_double_tap.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_initial_position.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_menu_order.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_wifi.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download.png)|
+
+## <a name ="function_settings">機能設定</a>
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsFunction.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsFunction2.png' width='250px'/>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_cover_image.png)|シリーズ、ブックの一覧表示画面で表紙画像を表示するかどうかを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_cover_image_size.png)|シリーズ、ブックの一覧表示画面で表紙画像のサイズを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_filename.png)|ブックの一覧表示画面でタイトルとしてファイル名を表示するかどうかを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_reading_progress.png)|ブックの一覧表示画面で表紙画像に読書の進捗情報を表示するかどうかを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_bookmark_delete.png)|ブックマークからブックを表示した際に、ブックマークを自動で削除するかどうかを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_read_history_count.png)|[履歴一覧](../BasicOperations/DirectorySearch.mkd#history)での表示件数を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_recently_count.png)|[新着一覧](../BasicOperations/DirectorySearch.mkd#latest)での表示件数を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_send_bug_report.png)|ComicCafeがクラッシュした際にバグレポートを作者に送信するかどうかを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_disk_cache.png)|キャッシュのサイズをMBで設定します。キャッシュは先読みしたページ画像や表紙画像を保存するために使用されます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_disk_cache_clear.png)|キャッシュを削除します。
+
+## <a name ="screen_settings">スクリーン設定</a>
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsScreen.png' width='250px'/>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_full_screen.png)|全画面表示を切り替えます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_rotate.png)|端末を傾けた時の画面回転させるかどうかを設定できます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_backlight.png)|バックライトを常時点灯させておくかどうかを設定できます。
+
+## <a name ="hardware_settings">ハードウェア設定</a>
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardware.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardwareKey.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsImExport.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsImExport2.png' width='250px'/>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_hard_key.png)|ハードウェアキー操作で呼び出す機能をカスタマイズします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_wifi.png)|WifiのOn/Offを切り替えます。
+
+## <a name ="viewer_settings">Viewer設定</a>
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewer.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewer2.png' width='250px'/>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_touch.png)|ビューワのタッチ操作で呼び出す機能をカスタマイズします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_menu_order.png)|ビューワのサイドメニューの表示順をカスタマイズします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_move_fast_speed.png)|ページの高速移動時のページ切り替え間隔を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_slideshow_speed.png)|スライドショーの画面切り替え間隔を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_initial_position.png)|画像の表示位置を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_volume_no_location.png)|現在表示中の巻数をビューワのどの位置に表示するかを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_page_no_location.png)|現在表示中のページ番号をビューワのどの位置に表示するかを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_clock_location.png)|現在時刻をビューワのどの位置に表示するかを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_show_wave_level_location.png.png)|電波の受信レベルをビューワのどの位置に表示するかを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_enable_double_tap.png)|ダブルタップ操作でズーム処理をおこなうかどうかを設定します。ご作動を防止するための機能です。
+
+## <a name ="download_settings">ダウンロード設定</a>
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsDownload.png' width='250px'/>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_directory.png)|ダウンロードしたファイルの保存先を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_set_read.png)|ダウンロードが完了したブックを既読状態にするかどうかを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_notification.png)|ダウンロード完了時に通知バーに表示するかどうかを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_retry_count.png)|ダウンロードが失敗した場合のリトライ回数を設定します。
+
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardwareKey.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerMenuOrder.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerTouch.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerTouch2.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsDownload.png' width='250px'/>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsDownloadDir.png' width='250px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsScreen.png' width='250px'/>
