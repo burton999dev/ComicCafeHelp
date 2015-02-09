@@ -1,15 +1,15 @@
 # クライアントの設定
-
+ComicCafeクライアントの様々な設定を行うことができます。設定は[機能設定](#function_settings)、[スクリーン設定](#screen_settings)、[ハードウェア設定](#hardware_settings)、[Viewer設定](#viewer_settings)、[ダウンロード設定](#download_settings)の5つに大別されます。
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsList.png' width='250px'/>
 
 |メニュー|説明|
 |:-----------|:------------|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_function.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_screen.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_hard.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer.png)|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download.png)|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_function.png)|[機能設定](#function_settings)の画面に遷移します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_screen.png)|[スクリーン設定](#screen_settings)の画面に遷移します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_hard.png)|[ハードウェア設定](#hardware_settings)の画面に遷移します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer.png)|[Viewer設定](#viewer_settings)の画面に遷移します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download.png)|[ダウンロード設定](#download_settings)の画面に遷移します。
 
 ## <a name ="function_settings">機能設定</a>
 
@@ -45,7 +45,7 @@
 
 |メニュー|説明|
 |:-----------|:------------|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_hard_key.png)|ハードウェアキー操作で呼び出す機能をカスタマイズします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_hard_key.png)|[ハードウェアキー操作で呼び出す機能をカスタマイズ](#hardwarekey_customize)します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_wifi.png)|WifiのOn/Offを切り替えます。
 
 ## <a name ="viewer_settings">Viewer設定</a>
@@ -55,8 +55,8 @@
 
 |メニュー|説明|
 |:-----------|:------------|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_touch.png)|ビューワのタッチ操作で呼び出す機能をカスタマイズします。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_menu_order.png)|ビューワのサイドメニューの表示順をカスタマイズします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_touch.png)|ビューワの[タッチ操作で呼び出す機能をカスタマイズ](#touch_customize)します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_menu_order.png)|ビューワの[サイドメニューの表示順をカスタマイズ](#sidemenu_order_customize)します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_move_fast_speed.png)|ページの高速移動時のページ切り替え間隔を設定します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_slideshow_speed.png)|スライドショーの画面切り替え間隔を設定します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_viewer_initial_position.png)|画像の表示位置を設定します。
@@ -72,27 +72,72 @@
 
 |メニュー|説明|
 |:-----------|:------------|
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_directory.png)|ダウンロードしたファイルの保存先を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_directory.png)|[ダウンロードしたファイルの保存先を設定](#download_dir_customize)します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_set_read.png)|ダウンロードが完了したブックを既読状態にするかどうかを設定します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_notification.png)|ダウンロード完了時に通知バーに表示するかどうかを設定します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_download_retry_count.png)|ダウンロードが失敗した場合のリトライ回数を設定します。
 
 
-## <a name ="">タッチ操作のカスタマイズ</a>
+## <a name ="touch_customize">タッチ操作のカスタマイズ</a>
+ビューワ上でのタッチ操作をカスタマイズすることができます。タッチ位置に対する、現在割り当てられている機能が表示されるます。変更したい部分をタップすると、割り当てる機能を選択するダイアログが表示されます。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerTouch.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerTouch2.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>タッチ操作のカスタマイズ</td>
+<td align='center'>タッチ操作の機能割り当て</td>
+</tr>
+</table>
 
+## <a name ="hardwarekey_customize">ハードウェアキーのカスタマイズ</a>
+ビューワ上でのハードウェアキー操作をカスタマイズすることができます。ハードウェアキーに対する、現在割り当てられている機能が表示されるます。変更したいキーをタップすると、割り当てる機能を選択するダイアログが表示されます。
 
-## <a name ="">ハードウェアキーのカスタマイズ</a>
-
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardwareKey.png' width='250px'/>
+</td>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsHardwareKey2.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ハードウェアキーのカスタマイズ</td>
+<td align='center'>ハードウェアキーの機能割り当て</td>
+</tr>
+</table>
 
-## <a name ="">サイドメニューの順番のカスタマイズ</a>
+## <a name ="sidemenu_order_customize">サイドメニューの順番のカスタマイズ</a>
+ビューワのサイドメニューの表示順をカスタマイズできます。よく利用する機能はメニューの上部に表示されるように設定したほうが使いやすくなると思います。メニュー一覧が現在の表示順で表示されるので、アイコンをドラッグして順番を並べ替えます。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsViewerMenuOrder.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>サイドメニューの順番</td>
+</tr>
+</table>
 
-## <a name ="">ダウンロードティレクトリの設定</a>
+## <a name ="download_dir_customize">ダウンロードディレクトリの設定</a>
+ファイルのダウンロード先を指定できます。ComicCafeはローカルのファイル読み込みをサポートしていないので、他のビューワで設定してあるディレクトリに変更すると連携がスムーズに行えるかもしれません。
 
+<table border='0'>
+<tr>
+<td>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/SettingsDownloadDir.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ダウンロード先ディレクトリ</td>
+</tr>
+</table>
