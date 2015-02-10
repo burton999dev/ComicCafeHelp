@@ -197,7 +197,11 @@ ComicCafeは圧縮ファイルの解凍に[7-Zip-JBinding](http://sevenzipjbind.
 今のところ無視リストからデータを削除する処理は提供しておりません。どうしても削除したい場合は、自身でデータベースに[直接接続](../TechnicalInformation/Database.mkd)してSQLを実行してレコードを削除してください。
 
 ## 操作方法
+1. インポート処理を行うフォルダを選択して`インポート`ボタンを押します。選択したフォルダ以下にある全てのファイルがスキャンされインポートされます。
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Import.png' width='800px'/>
 
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Import.png' width='800px'/>
+1. インポート処理が開始され、プログレスバーが表示されます。インポート処理は非常に時間のかかる処理です。自炊ファイル数が多いと半日ぐらいかかるので、気長に待ちましょう。インポート中でもクライアントからアクセスして読書することは可能です。
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ImportProgress.png' width='800px'/>
+
+1. 終了すると、インポートに成功した件数、失敗した件数、スキップした件数が表示されます。またリンクをクリックすると失敗した原因の詳細が確認できます。
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ImportComplete.png' width='800px'/>
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ImportProgress.png' width='800px'/>

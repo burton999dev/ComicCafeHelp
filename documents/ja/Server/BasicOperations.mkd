@@ -26,7 +26,7 @@
     ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/info.png)|使用しているオープンソースライブラリのライセンスを表示します。
     ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/help.png)|このヘルプページを表示します。
 
-    **画面右部の説明**
+    **画面左部の説明**
     
     |アイコン|説明|
     |:-----------|:------------|
