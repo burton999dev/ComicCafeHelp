@@ -6,7 +6,7 @@
 
 
 ## <a name ="search">著者の検索</a>
-`キーワード`に文字列を入力することで著者をインクリメンタルサーチすることができます。
+`キーワード`に文字列を入力することで著者をインクリメンタルサーチすることができます。**パフォーマンスの問題で検索結果は最大で128件までしか表示しません。**
 
 ## <a name ="register">著者の登録</a>
 ComicCafeの著者データベースに登録されていない著者を登録することができます。`著者名`と`カナ`を入力して`追加`ボタンを押すこととで著者を登録できます。
@@ -16,3 +16,4 @@ ComicCafeの著者データベースに登録されていない著者を登録�
 
 ## <a name ="delete">著者の削除</a>
 既存の著者を削除したい場合は、`キーワード`を入力してい対象の著者を検索して、![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/delete.gif)をクリックします。
+また、チェックボックで選択した著者を一括で削除するには![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/trash.png)をクリックします。
