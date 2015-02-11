@@ -1,4 +1,18 @@
-Server
-==============
+# 著者の管理
+著者の[検索](#search)、[登録](#register)、[編集](#update)、[削除](#delete)を行うことができます。ComicCafeはデフォルトで著者データベースに約20,000件のデータを持っています。また著者データはサーバーのアップデートで今後も追加されていきます。  
+著者とブックを関連付けることで、[本棚](../../Client/BasicOperations/Bookshelf.mkd)の条件にしたり、同じ著者のブックの一覧を表示したりと、ComicCafeの便利な機能を利用することができます。
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Author.png'/>
+
+
+## <a name ="search">著者の検索</a>
+`キーワード`に文字列を入力することで著者をインクリメンタルサーチすることができます。
+
+## <a name ="register">著者の登録</a>
+ComicCafeの著者データベースに登録されていない著者を登録することができます。`著者名`と`カナ`を入力して`追加`ボタンを押すこととで著者を登録できます。
+
+## <a name ="update">著者の編集</a>
+既存の著者を編集したい場合は、`キーワード`を入力してい対象の著者を検索して、![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/edit.gif)をクリックします。
+
+## <a name ="delete">著者の削除</a>
+既存の著者を削除したい場合は、`キーワード`を入力してい対象の著者を検索して、![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/delete.gif)をクリックします。
