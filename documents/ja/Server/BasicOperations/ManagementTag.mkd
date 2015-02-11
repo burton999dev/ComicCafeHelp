@@ -2,7 +2,7 @@
 タグの[登録](#register)、[編集](#update)、[削除](#delete)を行うことができます。  
 タグとブックを関連付けることで、[本棚](../../Client/BasicOperations/Bookshelf.mkd)の条件にしたり、ComicCafeの便利な機能を利用することができます。
 
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Tag.png' width='800px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Tag.png'/>
 
 ## <a name ="register">タグの登録</a>
 ComicCafeのタグデータベースに登録されていないタグを登録することができます。`キーワード`を入力して`追加`ボタンを押すこととでタグを登録できます。

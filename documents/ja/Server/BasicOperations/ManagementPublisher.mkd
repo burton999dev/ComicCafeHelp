@@ -2,7 +2,7 @@
 出版社の[検索](#search)、[登録](#register)、[編集](#update)、[削除](#delete)を行うことができます。ComicCafeはデフォルトで出版社データベースに約1,000件のデータを持っています。  
 出版社とブックを関連付けることで、[本棚](../../Client/BasicOperations/Bookshelf.mkd)の条件にしたり、ComicCafeの便利な機能を利用することができます。
 
-<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Publisher.png' width='80%'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Publisher.png'/>
 
 
 ## <a name ="search">出版社の検索</a>
