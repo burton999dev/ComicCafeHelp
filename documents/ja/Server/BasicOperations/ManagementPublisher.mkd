@@ -1,3 +1,19 @@
-Server
-==============
+# 出版社の管理
+出版社の[検索](#search)、[登録](#register)、[編集](#update)、[削除](#delete)を行うことができます。ComicCafeはデフォルトで出版社データベースに約1,000件のデータを持っています。  
+出版社とブックを関連付けることで、[本棚](../../Client/BasicOperations/Bookshelf.mkd)の条件にしたり、ComicCafeの便利な機能を利用することができます。
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Publisher.png' width='80%'/>
+
+
+## <a name ="search">出版社の検索</a>
+`キーワード`に文字列を入力することで出版社をインクリメンタルサーチすることができます。**パフォーマンスの問題で検索結果は最大で128件までしか表示しません。**
+
+## <a name ="register">出版社の登録</a>
+ComicCafeの出版社データベースに登録されていない出版社を登録することができます。`出版社名`を入力して`追加`ボタンを押すこととで出版社を登録できます。
+
+## <a name ="update">出版社の編集</a>
+既存の出版社を編集したい場合は、`キーワード`を入力してい対象の出版社を検索して、![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/edit.gif)をクリックします。
+
+## <a name ="delete">出版社の削除</a>
+既存の出版社を削除したい場合は、`キーワード`を入力してい対象の出版社を検索して、![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/delete.gif)をクリックします。
+また、チェックボックで選択した出版社を一括で削除するには![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/trash.png)をクリックします。

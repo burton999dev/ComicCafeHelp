@@ -1,3 +1,15 @@
-Server
-==============
+# タグの管理
+タグの[登録](#register)、[編集](#update)、[削除](#delete)を行うことができます。  
+タグとブックを関連付けることで、[本棚](../../Client/BasicOperations/Bookshelf.mkd)の条件にしたり、ComicCafeの便利な機能を利用することができます。
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Tag.png' width='800px'/>
+
+## <a name ="register">タグの登録</a>
+ComicCafeのタグデータベースに登録されていないタグを登録することができます。`キーワード`を入力して`追加`ボタンを押すこととでタグを登録できます。
+
+## <a name ="update">タグの編集</a>
+既存のタグを編集したい場合は、![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/edit.gif)をクリックします。
+
+## <a name ="delete">タグの削除</a>
+既存のタグを削除したい場合は、![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/delete.gif)をクリックします。
+また、チェックボックで選択したタグを一括で削除するには![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/trash.png)をクリックします。
