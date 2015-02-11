@@ -8,6 +8,7 @@
     
 |項目名|変更可能|説明|
 |:-----------|:-----------:|:------------|
+表紙カバー|○|[表紙カバーの取得方法](#getting_cover_image)を選択します。
 ID|×|ComicCafeがインポート時に割り振るIDです。
 ページ数|×|アーカイブファイルに含まれる画像ファイルの数です。
 パス|×|シリーズの絶対パスです。
@@ -16,7 +17,7 @@ ID|×|ComicCafeがインポート時に割り振るIDです。
 ハッシュ|×|アーカイブファイルのMD5ハッシュ値です。
 登録日|×|ブックがインポートされた日です。
 更新日|×|ブックが最後に更新された日です。
-ISBN|○|ISBNです。インポート時にバーコードから自動スキャンすることもできます。
+ISBN|○|ISBNです。自動スキャンすることもできます。
 タイトル|○|シリーズのタイトルです。
 出版社|○|出版社を[設定](#set_publisher)できます。
 出版日|○|出版日を設定できます。
@@ -28,19 +29,33 @@ ISBN|○|ISBNです。インポート時にバーコードから自動スキャ�
 
 |ボタン名|説明|
 |:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/scan_book.png)|ISBNを自動スキャンします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/google.png)|タイトルでGoogle検索します。
 保存|変更内容を保存します。
 削除|選択中のシリーズを削除します。シリーズを削除すると配下のブックが全て削除されます。<BR>実際のファイルは削除されないので、再度インポート処理を実行すれば復活します。
 キャンセル|変更内容を破棄します。
 
-## <a name ="set_cover_image">表紙画像の設定</a>
+## <a name ="getting_cover_image">表紙カバーの取得方法</a>
+
+|取得方法|説明|
+|:-----------|:------------|
+イメージの中から選択|アーカイブファイルに含まれる画像から選択した画像を使います。
+Webサービスから取得した小さなイメージ|[Webサービス連携](../Webservice.mkd)によって取得した、小さな画像を使います。
+Webサービスから取得した大きなイメージ|[Webサービス連携](../Webservice.mkd)によって取得した、大きな画像を使います。
+
+## <a name ="set_cover_image">表紙カバーの設定</a>
+表紙カバーの取得方法として`イメージの中から選択`を選択した場合、表紙カバーに採用する画像をアーカイブファイルの中の画像から選択することができます。画面の端をクリックするとページ遷移するので、表紙カバーにしたい画像を選択して`保存`ボタンを押します。
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/BookSetCover.png' width='800px'/>
 
 ## <a name ="set_author">著者の設定</a>
+`キーワード`に文字列を入力することで著者をインクリメンタルサーチすることができます。目的の著者が見つかったら`選択`ボタンを押して著者に設定します。著者は複数人設定することができます。`OK`ボタンを押して変更を確定します。目的の著者が見つからない場合は[著者の管理](ManagementAuthor.mkd)で登録してください。
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/BookSetAuthor.png' width='800px'/>
 
 ## <a name ="set_publisher">出版社の設定</a>
+
+`キーワード`に文字列を入力することで出版社をインクリメンタルサーチすることができます。目的の出版社が見つかったら`選択`ボタンを押して出版社を設定します。目的の出版社が見つからない場合は[出版社の管理](ManagementPublisher.mkd)で登録してください。
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/BookSetPublisher.png' width='800px'/>
 
