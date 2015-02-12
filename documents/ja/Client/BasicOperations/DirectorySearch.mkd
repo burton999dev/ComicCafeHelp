@@ -201,5 +201,3 @@
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_show_book_info.png)|書籍情報を設定します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_completed.png)|シリーズを完結に設定します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_uncompleted.png)|シリーズを未完結に設定します。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_delete.png)|選択した項目を削除します。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_clear.png)|表示されている全ての項目を削除します。

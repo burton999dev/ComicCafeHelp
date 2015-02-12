@@ -3,7 +3,7 @@ ComicCafeでは検索条件を指定して本棚を作成することができ�
 
 ## 本棚の作成手順
 
-1. `ディレクトリ検索`から本棚をタップして本棚一覧を標示します。右上にある`本棚の追加`のアイコンをタップします。
+1. `ディレクトリ検索`から本棚をタップして本棚一覧を表示します。右上にある`本棚の追加`のアイコンをタップします。
 
     <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting0.png' width='250px'/>
 
@@ -19,7 +19,7 @@ ComicCafeでは検索条件を指定して本棚を作成することができ�
 
     <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting3.png' width='250px'/>
 
-1. 本棚の条件の確認画面が標示されます。条件が正しく設定されていることを確認して、`OK`をタップします。本棚は後から修正、削除することができます。
+1. 本棚の条件の確認画面が表示されます。条件が正しく設定されていることを確認して、`OK`をタップします。本棚は後から修正、削除することができます。
 
     <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/BookshelfSetting4.png' width='250px'/>
 
@@ -48,7 +48,7 @@ ComicCafeでは検索条件を指定して本棚を作成することができ�
 |条件|説明|
 |:-----------|:------------|
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_last_modified.png)|ブックの最終更日時でソートします。最終更新日は最後にインポートやブックの編集をした日時です。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_category.png)|ブックが属するカテゴリのIDでソートします。<BR>例えば掲載雑誌のカテゴリで管理している場合、結果は掲載雑誌毎にまとまって標示されるようになります。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_category.png)|ブックが属するカテゴリのIDでソートします。<BR>例えば掲載雑誌のカテゴリで管理している場合、結果は掲載雑誌毎にまとまって表示されるようになります。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_book_title.png)|ブックのタイトルでソートします。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_series_title.png)|ブックが属しているシリーズでソートします。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_author.png)|ブックに設定されている著者のIDでソートします。

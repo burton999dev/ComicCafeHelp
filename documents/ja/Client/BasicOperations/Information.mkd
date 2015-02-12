@@ -3,7 +3,7 @@
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/client/Information.png' width='250px'/>
 <br>
 
-サーバーとの接続が確立されている場合、サーバーの情報を標示できます。表示できる情報は以下の通りです。
+サーバーとの接続が確立されている場合、サーバーの情報を表示できます。表示できる情報は以下の通りです。
 
 * サーバーの情報
     * サーバーのアドレスとポート番号
@@ -11,7 +11,7 @@
     * インポート済みのシリーズの件数
     * インポート済みのブックの件数
 
-同様にクライアントの情報も標示されます。AndroidIDは[サーバーの設定](../../Server/BasicOperations/Settings.mkd)でアクセスできるデバイスを制限するのに使用できます。AndroidID付近をタップするとクリップボードにコピーすることができます。
+同様にクライアントの情報も表示されます。AndroidIDは[サーバーの設定](../../Server/BasicOperations/Settings.mkd)でアクセスできるデバイスを制限するのに使用できます。AndroidID付近をタップするとクリップボードにコピーすることができます。
 
 * クライアントの情報
     * クライアントのバージョン
