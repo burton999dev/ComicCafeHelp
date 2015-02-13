@@ -19,7 +19,7 @@ ComicCafeサーバーの様々な設定を行うことができます。設定�
 ## <a name ="security">セキュリティ</a>
 アカウントの管理を行います。ComicCafeでは初期状態で`admin`と`guest`の2つのアカウントが存在します。  
 ComicCafeを家族など複数人で使用する場合は、それぞれ個人用のアカウントを作成してください。ComicCafeは[閲覧履歴](../../Client/BasicOperations/DirectorySearch.mkd#history)や[本棚](../../Client/BasicOperations/Bookshelf.mkd)などの情報を全てアカウント毎に管理しています。家族で同じアカウントを共有すると、それらの情報も共有されるので使い勝手が非常に悪くなります。また[パーミッション](../Permission.mkd)を設定すれば、ブックを特定のユーザにアクセスさせないようにすることもできます。  
-アカウントを追加する場合は、[](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/add_user.png)を編集する場合は![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/edit.gif)を削除する場合は![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/delete.gif)をクリックします。
+アカウントを追加する場合は、![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/add_user.png)を編集する場合は![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/edit.gif)を削除する場合は![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/delete.gif)をクリックします。
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingSecurity.png'/>
 
