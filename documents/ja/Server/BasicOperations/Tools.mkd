@@ -1,6 +1,51 @@
-Server
-==============
+# ツール
+ComicCafeの便利な機能を利用できます。  
+機能は[バッチ処理](#batch)、[インポート](#import)、[エクスポート](#export)、[デーモン](#demon)の4機能があります。
+
+
+## <a name ="batch">バッチ処理</a>
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolBatch.png'/>
+
+|機能|説明|
+|:-----------|:------------|
+リンク切れのチェック|リネームや削除によって、DBで管理しているファイルパスに自炊ファイルが存在しないブックを検索してデータベースから削除します。<BR>ファイルサイズがインポート時と変わっている場合も削除の対象になります。
+著者名の再解析|登録済みのブックのファイル名を再解析して著者を自動登録します。<BR>インポート時に登録されていなかった著者を後から登録した場合などに使用する機能です。
+
+## <a name ="import">インポート</a>
+[CSVファイル](#csv)から`著者`、`出版社`、`タグ`をインポートすることができます。  
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolImport.png'/>
+
+**操作手順**
+
+1. インポートするデータを`著者`、`出版社`、`タグ`の中から選択します。
+1. `+Add`をクリックしてCSVファイルを選択します。拡張子は必ず`.csv`である必要があります。
+1. `Upload`をクリックします。
+1. インポートが実行され、結果が画面下部に表示されます。
+
+## <a name ="export">エクスポート</a>
+ComicCafeサーバーで管理しているデータを[CSVファイル](#csv)にエクスポートすることができます。  
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolExport.png'/>
+
+**操作手順**
+
+1. エクスポートするデータを`著者`、`出版社`、`タグ`、`ブック`の中から選択します。
+1. `Export`ボタンをクリックします。
+1. CSVがダウンロードされます。
+
+## <a name ="demon">デーモン</a>
+**現時点では未実装の機能です。**
+
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/ToolDemon.png'/>
+
+
+## <a name ="csv">CSVフォーマット</a>
+CSVフォーマットは下記の表の通りです。CSVと言ってますが、`出版社`と`タグ`は1項目しかないのでカンマで区切られていない単なるテキストファイルです。
+
+|対象|フォーマット|
+|:-----------|:------------|
+著者|著者名,カナ
+出版社|出版社名
+タグ|タグ
+ブック|ISBN, タイトル,パス,ハッシュ値,ファイルサイズ,著者,出版日,出版社,メモ

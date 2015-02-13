@@ -98,5 +98,5 @@ OFF|----|MyHome|設定済|comiccafe.example.com
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_restart.png)|ComicCafeサーバを再起動します。<BR>この操作の実行後はComicCafeサーバが起動するまでアクセスできなくなります。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_clear_server_cache.png)|サーバにあるキャッシュをクリアします。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_import_book.png)|ブックのインポート処理を実行します。<BR>インポートの基準となるディレクトリは以前Web管理画面からインポート処理をしたディレクトリになります。<BR>ディレクトリを指定してインポートしたい場合はWeb管理画面から実行してください。
-![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_delete_broken_link.png)|リネームや削除によって、登録されているパスに自炊ファイルが存在しないブックを検索してデータベースから削除します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_delete_broken_link.png)|リネームや削除によって、DBで管理しているファイルパスに自炊ファイルが存在しないブックを検索してデータベースから削除します。
 ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_reanalyze_author.png)|登録済みのブックのファイル名を再解析して著者を自動登録します。
