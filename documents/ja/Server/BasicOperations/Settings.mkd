@@ -18,7 +18,8 @@ ComicCafeサーバーの様々な設定を行うことができます。設定�
 
 ## <a name ="security">セキュリティ</a>
 アカウントの管理を行います。ComicCafeでは初期状態で`admin`と`guest`の2つのアカウントが存在します。  
-ComicCafeを家族など複数人で使用する場合は、それぞれ個人用のアカウントを作成してください。ComicCafeは[閲覧履歴](../../Client/BasicOperations/DirectorySearch.mkd#history)や[本棚](../../Client/BasicOperations/Bookshelf.mkd)などの情報を全てアカウント毎に管理しています。家族で同じアカウントを共有すると、それらの情報も共有されるので使い勝手が非常に悪くなります。また[パーミッション](../Permission.mkd)を設定すれば、ブックを特定のユーザにアクセスさせないようにすることもできます。
+ComicCafeを家族など複数人で使用する場合は、それぞれ個人用のアカウントを作成してください。ComicCafeは[閲覧履歴](../../Client/BasicOperations/DirectorySearch.mkd#history)や[本棚](../../Client/BasicOperations/Bookshelf.mkd)などの情報を全てアカウント毎に管理しています。家族で同じアカウントを共有すると、それらの情報も共有されるので使い勝手が非常に悪くなります。また[パーミッション](../Permission.mkd)を設定すれば、ブックを特定のユーザにアクセスさせないようにすることもできます。  
+アカウントを追加する場合は、[](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/add_user.png)を編集する場合は![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/edit.gif)を削除する場合は![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/delete.gif)をクリックします。
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/SettingSecurity.png'/>
 
@@ -36,7 +37,7 @@ guest|guest|デフォルトのユーザです。ComicCafeを複数人で使用�
 |項目|説明|
 |:-----------|:------------|
 ユーザ名|ユーザー名を設定します。
-パスワード|パスワードを設定します。パスワードは暗号化されて保存されるので忘れないようにしてください。
-AndroidID|[クライアント情報](../../Client/BasicOperations/Information.mkd)に表示されているAndroidIDを設定することで、アクセスできるデバイスを制限できます。<BR>仮にユーザ名とパスワードが第三者に漏れた場合でも、AndroidIDを設定しておけば、その端末以外ではアクセスすることができないのでセキュリティが向上します。<BR>AndroidIDはカンマ区切りで複数設定できます。またAndroidIDは端末固有の識別子ではないので、端末リセットなどを行うと値が変更されてします。その場合は再度設定する必要があります。
+パスワード|パスワードを設定します。<BR>パスワードは暗号化されて保存されるので忘れないようにしてください。
+AndroidID|[クライアント情報](../../Client/BasicOperations/Information.mkd)に表示されているAndroidIDを設定することで、アクセスできるデバイスを制限できます。<BR>仮にユーザ名とパスワードが第三者に漏れた場合でも、AndroidIDを設定しておけば、<BR>その端末以外ではアクセスすることができないのでセキュリティが向上します。<BR>AndroidIDはカンマ区切りで複数設定できます。またAndroidIDは端末固有の識別子ではないので、<BR>端末リセットなどを行うと値が変更されてします。その場合は再度設定する必要があります。<BR>設定しない場合は全ての端末からアクセスできます。
 
 
