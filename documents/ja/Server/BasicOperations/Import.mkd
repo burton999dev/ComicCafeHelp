@@ -196,6 +196,10 @@ ComicCafeは圧縮ファイルの解凍に[7-Zip-JBinding](http://sevenzipjbind.
 そのようなファイルに遭遇した場合は、一度ファイルを任意のアーカイバーで解凍し、無圧縮Zipなどで再度圧縮してください。無圧縮Zipであれば間違いなく[7-Zip-JBinding](http://sevenzipjbind.sourceforge.net/)は処理することができます。  
 今のところ無視リストからデータを削除する処理は提供しておりません。どうしても削除したい場合は、自身でデータベースに[直接接続](../TechnicalInformation/Database.mkd)してSQLを実行してレコードを削除してください。
 
+## NASについて
+HDDとしてNAS(Network Attached Storage)を使用している場合、ComicCafeサーバーをインストールしたPCにネットワークドライブの割り当て(マウント)をすることで、NAS上のフォルダをインポートすることができます。  
+しかし`PC`と`NAS`の間で余計な通信が発生するためインポート処理のパフォーマンスがかなり悪化するので注意が必要です。可能であればUSB3.0接続の外付けHDDを使うのが良いでしょう。
+
 ## 操作方法
 1. インポート処理を行うフォルダを選択して`インポート`ボタンを押します。選択したフォルダ以下にある全てのファイルがスキャンされインポートされます。
     <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Import.png' width='800px'/>
