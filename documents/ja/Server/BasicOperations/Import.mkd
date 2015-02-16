@@ -123,6 +123,7 @@ ComicCafeでは自炊ファイルを以下のルールで管理することを�
 * 例え著者の名前であっても、ComicCafeのDBに登録されていない場合は、著者として認識されません。その場合は著者の管理画面から著者を登録してください。
 * カッコの対応が不正だと、うまく処理されません。例えば {一般コミック] などです。（半角、全角も区別します）
 * 処理の結果、意図しない文字列がタグとして登録される可能性があります。その場合はタグの管理画面から不要なタグを削除してください。
+* [インポート設定](Settings.mkd#import)で`インポート時にタグを作成する`を無効にしている場合は、登録済みのキーワードのみタグとして処理されます。
 
 ## メタファイルでの管理
 ComicCafeは [ComicRack](http://comicrack.cyolito.com/downloads/ComicRack/Support-Files/ComicInfoSchema.zip), [ComicBookInfo](https://docs.google.com/document/pub?id=1Tu9eoPWc_8SPgxx5J4-6mEaaRWLLv-bEA8i_jcIe3IE), [CoMet](http://www.denvog.com/comet/comet-specification/) の3種類のメタ情報をサポートしています。  
