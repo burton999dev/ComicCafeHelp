@@ -5,6 +5,14 @@
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Publisher.png'/>
 
 
+**項目の説明**
+    
+|項目名|説明|
+|:-----------|:------------|
+ID|ComicCafeが割り振るIDです。
+出版社名|出版社名です。検索時に使用されます。
+被参照数|この出版社と関連づいているブックの件数です。
+
 ## <a name ="search">出版社の検索</a>
 `キーワード`に文字列を入力することで出版社をインクリメンタルサーチすることができます。**パフォーマンスの問題で検索結果は最大で128件までしか表示しません。**
 

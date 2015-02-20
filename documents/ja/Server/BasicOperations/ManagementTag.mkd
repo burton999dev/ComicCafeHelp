@@ -4,6 +4,15 @@
 
 <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ja/server/Tag.png'/>
 
+
+**項目の説明**
+    
+|項目名|説明|
+|:-----------|:------------|
+ID|ComicCafeが割り振るIDです。
+キーワード|タグの名前です。検索時に使用されます。
+被参照数|このタグと関連づいているブックの件数です。
+
 ## <a name ="register">タグの登録</a>
 ComicCafeのタグデータベースに登録されていないタグを登録することができます。`キーワード`を入力して`追加`ボタンを押すこととでタグを登録できます。
 
