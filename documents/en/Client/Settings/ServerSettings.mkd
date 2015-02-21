@@ -1,0 +1,102 @@
+# サーバの設定
+接続するComicCafeサーバの設定や、各種操作を実行することができます。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/SettingsList.png' width='250px'/>
+
+|設定|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_setting.png)|[接続情報](#account_setting)の設定を行います。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_function.png)|様々な[サーバの操作](#server_operation)を実行することができます。
+
+## <a name ="account_setting">サーバとアカウント</a>
+接続情報は複数登録することができ、登録済みの接続情報のリストから選択することで簡単に切り替えることができます。  
+[アクションバー](#action_bar)から接続情報を新規に登録できます。また既存の接続情報をロングタップすることで[コンテキストメニュー](context_menu)が表示され、編集、削除、コピーすることができます。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/AccountList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>接続情報一覧</td>
+</tr>
+</table>
+<BR>
+
+接続情報の登録ダイアログです。`*`が付いている項目は必須項目です。設定項目を入力して`OK`ボタンを押すと登録完了です。`テスト`ボタンを押すと入力した設定情報をComicCafeサーバに接続を試み、結果を表示します。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/SettingsServer.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'><a name ="register_dialog">接続情報登録</a></td>
+</tr>
+</table>
+
+|設定項目|説明|
+|:-----------|:------------|
+ホスト名(Wifi)|ComicCafeサーバが起動しているPCのIPアドレスかホスト名を入力します。
+ポート番号(Wifi)|ComicCafeサーバが起動しているポート番号を入力します。<BR>起動オプションを指定していない場合は`9999`です。
+SSID|Wifi用の`ホスト名`、`ポート番号`の設定情報が使われる環境をSSIDで限定することができます。
+ユーザ名|ComicCafeサーバに接続するためのユーザ名です。<BR>ユーザは[Web管理画面](../../Server/BasicOperations/Settings.mkd)で追加することができます。<BR>デフォルトでは`guest`ユーザでアクセスできます。
+パスワード|ComicCafeサーバに接続するためのパスワードです。<BR>デフォルトの`guest`ユーザのパスワードは同じく`guest`です。
+ホスト名(3G/4G)|ComicCafeサーバが起動しているPCのIPアドレスかホスト名を入力します。<BR>この設定は端末のWifi設定が無効な場合に使用されます。
+ポート番号(3G/4G)|ComicCafeサーバが起動しているポート番号を入力します。<BR>この設定は端末のWifi設定が無効な場合に使用されます。
+説明|この接続情報に対する説明文を入力できます。
+
+### サーバの接続先について
+サーバの接続先(ホスト名とポート番号)はWifi用と3G/4G用の2種類設定することができます。これは端末がComicCafeサーバが参加しているネットワークと同じLANに接続している場合、`プライベートIP`でアクセスしますが、外出先など3G/4G経由でアクセスする場合は`グローバルIP`でアクセスする必要があるためです。
+
+どのようなルールでサーバの接続先が決定されるかを表した表を以下に示します。  
+この例では自宅のネットワーク`MyHome`にComicCafeサーバが稼働しています。ComicCafeサーバのプライベートIPは`192.168.100.100`です。またルータを設定してDNSに登録しており、外部からは`comiccafe.example.com`というドメインでアクセスできるように設定してあると仮定します。また仕事中は会社の`MyOffiece`というネットワークにAndroid端末を参加させています。
+
+|Wifi|接続中のSSID|SSID|ホスト名(3G/4G)|有効になる接続先|
+|:-----------|:------------|:------------|:------------|:------------|
+ON|MyHome|未設定|未設定|192.168.100.100
+ON|MyHome|MyHome|設定済|192.168.100.100
+ON|MyOffice|MyHome|未設定|192.168.100.100
+ON|MyOffice|MyHome|設定済|comiccafe.example.com
+OFF|----|未設定|未設定|192.168.100.100
+OFF|----|MyHome|未設定|192.168.100.100
+OFF|----|未設定|設定済|comiccafe.example.com
+OFF|----|MyHome|設定済|comiccafe.example.com
+
+少々複雑で解りづらいですが、簡単にまとめると  
+
+1. ComicCafeを自宅のLAN内でのみ使用する場合は、ホスト名(Wifi)にComicCafeサーバの`プライベートIP`を設定し、ホスト名(3G/4G)は未設定で問題ありません。
+1. ComicCafeサーバをインターネットの公開して、外出先から3G/4G回線でアクセスしたい場合は、ホスト名(Wifi)にComicCafeサーバの`プライベートIP`を設定し、ホスト名(3G/4G)には`グローバルIP`を設定します。
+1. 2の条件にさらに、外出先で端末をWifiに接続することがある場合は、SSIDに自宅のWifiアクセスポイントのSSIDを設定します。
+
+
+### <a name ="action_bar">アクションバー</a>
+
+|アイコン|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_server_add.png)|[接続情報登録ダイアログ](#register_dialog)が表示され、接続情報を登録することができます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_server_search.png)|Wifiで接続中のLANからComicCafeサーバを検索します。<BR>サーバが見つかった場合はIPアドレスが自動入力され[接続情報登録ダイアログ](#register_dialog)が表示されます。<BR>使用しているルータなどによって検索に失敗することがあります。
+
+### <a name ="context_menu">コンテキストメニュー</a>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_copy.png)|選択した接続情報をコピーします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_edit.png)|選択した接続情報を編集します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_delete.png)|選択した接続情報を削除します。<BR>現在アクティブな接続情報は削除できません。
+
+
+## <a name ="server_operation">サーバの操作</a>
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/SettingsServerOperation.png' width='250px'/>
+
+|設定|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_open_console.png)|ブラウザでWeb管理画面を開きます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_restart.png)|ComicCafeサーバを再起動します。<BR>この操作の実行後はComicCafeサーバが起動するまでアクセスできなくなります。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_clear_server_cache.png)|サーバにあるキャッシュをクリアします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_import_book.png)|ブックのインポート処理を実行します。<BR>インポートの基準となるディレクトリは以前Web管理画面からインポート処理をしたディレクトリになります。<BR>ディレクトリを指定してインポートしたい場合はWeb管理画面から実行してください。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_delete_broken_link.png)|リネームや削除によって、DBで管理しているファイルパスに自炊ファイルが存在しないブックを検索してデータベースから削除します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_server_reanalyze_author.png)|登録済みのブックのファイル名を再解析して著者を自動登録します。

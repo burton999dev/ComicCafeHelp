@@ -1,0 +1,19 @@
+# キーワード検索
+ブックを任意のキーワードで検索することができます。入力されたキーワードは`ブックのタイトル`、`シリーズのタイトル`、`著者名`、`タグ`に対してマッチングが行われます。マッチングは、ひらがな・カタカナの違いや大文字・小文字の違いを無視して実行されます。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/KerywordSearch.png' width='250px'/>
+
+
+## 詳細条件
+キーワードだけでなく、ブックの状態を条件にして検索することもできます。  
+キーワードと同時に条件を指定した場合は両方の条件を満たすブックが抽出されます。
+
+|条件|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_completed.png)|シリーズが完結しているブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_uncompleted.png)|シリーズが完結していないブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_missing_issue.png)|巻数が歯抜けになっているブックを抽出します。歯抜けとは`1巻、2巻、4巻`のように3巻抜けてるような状態を意味します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_unknown_isbn.png)|ISBNが設定されていないブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_unknown_author.png)|著者が設定されていないブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/search_condition/search_condition_unknown_publisher.png)|出版社が設定されていないブックを抽出します。
+

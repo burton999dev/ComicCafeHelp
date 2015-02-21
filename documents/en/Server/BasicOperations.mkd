@@ -1,0 +1,44 @@
+# 基本操作
+ここではWeb管理画面の操作方法について説明します。
+
+1. ComicCafeが起動するとアイコンがタスクトレイ(Macだとメニューバー)に表示されます。アイコンをクリックして`設定`をクリックするとブラウザが起動しログイン画面が表示されます。  
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/server/Menubar.png'/>
+
+    * GUIのないOSの場合、以下のURLにアクセスすることで管理画面にアクセスできます。  
+**http://[IPアドレス]:[ポート番号]/comic-cafe/webui/faces/contents/management.xhtml**
+
+1. インストール直後はユーザ名、パスワードともに `admin` でログインできます。パスワードは[設定](BasicOperations/Server/BasicOperations/Settings.mkd)で変更できるので、ログイン後に予測されないパスワードに変更することをオススメします。`ログインしたままにする`にチェックを入れると次回からユーザ名、パスワードの入力を省略できます。  
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/server/Login.png'/>
+
+1. ログインに成功するとメイン画面が表示されます。メイン画面は`メニュー`,`画面左部`,`画面右部`  の３つのパートに分かれています。
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/server/Main.png' width='800px'/>
+    **メニューの説明**
+    
+    |アイコン|説明|
+    |:-----------|:------------|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/book_add.png)|[インポート処理](BasicOperations/Import.mkd)の画面を表示します。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/author_add.png)|[著者の管理](BasicOperations/ManagementAuthor.mkd)の画面を表示します。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/publisher_add.png)|[出版社の管理](BasicOperations/ManagementPublisher.mkd)の画面を表示します。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/tag_add.png)|[タグの管理](BasicOperations/ManagementTag.mkd)の画面を表示します。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/tools.png)|[ツール](BasicOperations/Server/BasicOperations/Tools.mkd)の画面を表示します。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/preferences.png)|[設定](BasicOperations/Server/BasicOperations/Settings.mkd)の画面を表示します。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/download_server.png)|サーバーのダウンロードページを開きます。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/info.png)|使用しているオープンソースライブラリのライセンスを表示します。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/menu/help.png)|このヘルプページを表示します。
+
+    **画面左部の説明**
+    
+    |アイコン|説明|
+    |:-----------|:------------|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/category.png)|カテゴリ検索のビューに切り替えます。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/search.png)|キーワード検索のビューに切り替えます。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/reload.png)|ツリーを再読み込みして最新状態にします。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/folder.png)|[カテゴリの管理](BasicOperations/ManagementCategory.mkd)を画面右部に表示します。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/books.png)|[シリーズの管理](BasicOperations/ManagementSeries.mkd)を画面右部に表示します。
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/book.png)|[ブックの管理](BasicOperations/ManagementBook.mkd)を画面右部に表示します。
+
+
+1. `検索`のタブをクリックするとキーワード検索を実行することができます。ただし検索結果の表示のみで、検索結果から編集処理を行うことは現時点ではできません。キーワードには`タイトル`, `著者名`なども入力可能で、部分一致検索で検索されます。
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/server/SearchBook.png' width='800px'/>
+
+

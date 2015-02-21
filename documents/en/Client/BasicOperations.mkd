@@ -1,0 +1,22 @@
+# クライアントの基本操作
+ここではクライアントの基本的な操作方法を説明します。ComicCafeを起動すると以下の様な画面が表示されます。  
+画面上の`アクションバー`と`タブ`の切り替えでComicCafeの全ての機能にアクセスすることができます。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/Main.png' width='250px'/>
+
+## アクションバー
+
+|アイコン|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_book.png)|最後に読んでいたブックを[ビューワー](BasicOperations/Viewer.mkd)で表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_preferences.png)|[設定](Settings.mkd)画面に遷移します。初回起動後は、まずサーバーの設定をおこなってください。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/actionbar_menu/action_info.png)|[サーバー・クライアントの情報](BasicOperations/Information.mkd)を表示します。
+
+## タブ
+
+|アイコン|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/tab_menu/tab_keyword_search.png)|[キーワード検索](BasicOperations/KeywordSearch.mkd)を行います。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/tab_menu/tab_directory_search.png)|[ディレクトリ検索](BasicOperations/DirectorySearch.mkd)を行います。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/tab_menu/tab_download_search.png)|[ダウンロード](BasicOperations/Download.mkd)を行います。
+

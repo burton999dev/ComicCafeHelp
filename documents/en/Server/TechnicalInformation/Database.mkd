@@ -1,0 +1,317 @@
+# データベース
+ComicCafeでは書籍情報、ユーザー情報、閲覧履歴などほぼ全ての情報をサーバーのデータベースで管理しています。  
+データベースは[H2 Database Engine](http://www.h2database.com/html/main.html)という組み込みのデータベースを使用しています。  
+SQLの知識があれば、ComicCafeを介さず直接データベースにアクセスしてデータを操作することも可能です。
+
+## 接続方法
+
+1. [ここ](http://www.h2database.com/html/download.html)からH2DBのjarファイルをダウンロードします。使用しているバージョンは`1.3.176`です。
+1. ComicCafeサーバーを起動します。
+1. ダウンロードした`h2-1.3.176.jar`をダブルクリックします。ブラウザ上にH2DBのコンソールが表示されます。
+1. `JDBC URL`, `ユーザ名`, `パスワード` を入力して`接続`ボタンをクリックします。
+    - JDBC URL = jdbc:h2:file:{InstallDir}/h2db/comic-cafe;AUTO_SERVER=TRUE
+    - ユーザ名 = sa
+    - パスワード = cc
+1. 接続に成功すると、画面右にテーブル一覧のツリーが表示され、任意のSQLが実行できます。
+
+## テーブル定義
+
+### ACCOUNT
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+USER_ID|number(12)|Yes|No|
+USER_NAME|nvarchar2(16)|No|No|
+PASSWORD|nvarchar2(32)|No|Yes|ハッシュ化されたパスワード
+ACCOUNT_TYPE|number(2)|No|No|1:Admin 2:DefaultUser 3:User
+LAST_MODIFIED_TIME|timestamp|No|No|
+
+```
+アカウントを管理するテーブルです。
+ComicCafeではアカウント毎に様々な情報を管理します。
+```
+### DEVICE
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+USER_ID|number(12)|Yes|No|
+ANDROID_ID|nvarchar2(64)|Yes|No|Secure.ANDROID_ID
+
+```
+デバイスを管理するテーブルです。
+このレコードがある場合、ユーザーは指定された端末以外からアクセスできなくなります。
+```
+### CATEGORY
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+CATEGORY_ID|number(12)|Yes|No|
+PARENT_ID|number(12)|No|Yes|ルートの場合はnull
+NAME|nvarchar2(256)|No|Yes|
+PATH|nvarchar2(256)|No|Yes|
+LAST_MODIFIED_TIME|timestamp|No|No|
+NOTE|nvarchar2(512)|No|Yes|
+
+```
+カテゴリを管理するテーブルです。
+ブックのインポート処理で作成されます。
+カテゴリはツリー構造になっています。
+H2DBは再帰SQLもサポートしているので取得に便利です。
+```
+### SERIES
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+SERIES_ID|number(12)|Yes|No|
+CATEGORY_ID|number(12)|No|Yes|
+TITLE|nvarchar2(256)|No|No|
+PATH|nvarchar2(256)|No|No|
+IS_COMPLETION|number(1)|No|No|0:未完 1:完結
+LAST_MODIFIED_TIME|timestamp|No|No|
+NOTE|nvarchar2(512)|No|Yes|
+
+```
+シリーズを管理するテーブルです。
+ブックのインポート処理で作成されます。
+親のカテゴリを持たないシリーズも仕様上あり得ます。
+```
+### BOOK
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOK_ID|number(12)|Yes|No|
+SERIES_ID|number(12)|No|No|
+TITLE|nvarchar2(256)|No|No|
+ISBN|nvarchar2(16)|No|Yes|
+VOLUME|number(4)|No|Yes|
+PAGE_COUNT|number(6)|No|No|総ページ数
+FILE_PATH|nvarchar2(512)|No|No|
+SORTABLE_FILE_NAME|nvarchar2(256)|No|No|0Padしたファイル名
+SIZE|number(12)|No|No|ファイルサイズ
+HASH|nvarchar2(32)|No|No|MD5ハッシュ値
+COVER_PAGE_NO|number(6)|No|Yes|表紙画像に使うページ番号
+COVER_IMAGE_TYPE|number(1)|No|Yes|1:自炊ファイル内の画像<BR>2:範囲指定画像<BR>3:Webserviceから取得した画像(小)<BR>4:Webserviceから取得した画像(大)
+COVER_IMAGE|blob|No|Yes|
+COVER_LARGE_IMAGE_URL|nvarchar2(512)|No|Yes|
+COVER_SMALL_IMAGE_URL|nvarchar2(512)|No|Yes|
+COVER_CROP_COORD|nvarchar2(32)|No|Yes|画像の範囲指定情報(未サポート)
+IS_ENCRYPT|number(1)|No|No|0:通常 1:パスワード書庫
+PUBLISHER_ID|number(12)|No|Yes|
+PUBLISHED_DATE|date|No|Yes|
+CREATION_TIME|timestamp|No|No|
+LAST_MODIFIED_TIME|timestamp|No|No|
+NOTE|nvarchar2(512)|No|Yes|
+IS_ISBN_SEARCH|number(1)|No|No|0:未実施 1:ISBN検索実行済み
+
+```
+ブックを管理するテーブルです。
+ブックのインポート処理で作成されます。
+```
+### AUTHOR
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+AUTHOR_ID|number(12)|Yes|No|
+NAME|nvarchar2(64)|No|No|
+SEARCH_NAME|nvarchar2(64)|No|No|
+REFERENCED_COUNTING|number(6)|No|No|被参照数
+LAST_MODIFIED_TIME|timestamp|No|No|
+
+```
+著者を管理するテーブルです。
+```
+### PUBLISHER
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+PUBLISHER_ID|number(12)|Yes|No|
+NAME|nvarchar2(64)|No|No|
+REFERENCED_COUNTING|number(6)|No|No|被参照数
+LAST_MODIFIED_TIME|timestamp|No|No|
+
+```
+出版社を管理するテーブルです。
+```
+### TAG
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+TAG_ID|number(12)|Yes|No|
+KEYWORD|nvarchar2(256)|No|No|
+REFERENCED_COUNTING|number(6)|No|No|被参照数
+LAST_MODIFIED_TIME|timestamp|No|No|
+
+```
+タグを管理するテーブルです。
+```
+### BOOK_AUTHOR
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOK_ID|number(12)|Yes|No|
+AUTHOR_ID|number(12)|Yes|No|
+
+```
+ブックに関連づいている著者を管理するテーブルです。
+このテーブルにレコードが追加されると、関連するAUTHORテーブルのREFERENCED_COUNTINGがインクリメントされます。
+```
+### BOOK_TAG
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOK_ID|number(12)|Yes|No|
+TAG_ID|number(12)|Yes|No|
+
+```
+ブックに関連づいているタグを管理するテーブルです。
+このテーブルにレコードが追加されると、関連するTAGテーブルのREFERENCED_COUNTINGがインクリメントされます。
+```
+### SERIES_TAG
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+SERIES_ID|number(12)|Yes|No|
+TAG_ID|number(12)|Yes|No|
+
+```
+シリーズに関連づいているタグを管理するテーブルです。
+このテーブルにレコードが追加されると、関連するTAGテーブルのREFERENCED_COUNTINGがインクリメントされます。
+```
+### BOOKMARK
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOKMARK_ID|number(12)|Yes|No|
+USER_ID|number(12)|No|No|
+BOOK_ID|number(12)|No|No|
+PAGE_NO|nvarchar2(64)|No|No|
+CREATION_TIME|timestamp|No|No|
+
+```
+ブックマークを管理するテーブルです。
+USER_ID, BOOK_ID, PAGE_NOでユニークになります。
+```
+### READ_BOOK
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOK_ID|number(12)|Yes|No|
+USER_ID|number(12)|Yes|No|
+READ_PAGE_FIELDS|nvarchar2(2048)|No|Yes|既読ページを表すビットフィールド
+LAST_MODIFIED_TIME|timestamp|No|No|
+
+```
+ユーザーが読み終えたページを管理するテーブルです。
+READ_PAGE_FIELDSはビットフィールドです。
+例えば1111001というデータの場合、1〜4ページ目は既読5,6ページは未読、7ページ目は既読という意味になります。
+実際の値は16進数の文字列として保存されています。この情報を元に読書進捗などを計算しています。
+```
+### READ_HISTORY
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+READ_HISTORY_ID|number(12)|Yes|No|
+USER_ID|number(12)|No|No|
+BOOK_ID|number(12)|No|No|
+PAGE_NO|nvarchar2(64)|No|No|
+READ_TIME|timestamp|No|No|
+
+```
+ユーザー、ブック毎の最後に開いていたページを管理するテーブルです。
+USER_ID, BOOK_IDでユニークになります。
+```
+### BOOKSHELF
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOKSHELF_ID|number(12)|Yes|No|
+USER_ID|number(12)|No|No|
+JSON|nvarchar2(4096)|No|No|本棚条件を表すJSON
+
+```
+本棚を管理するテーブルです。
+本棚に関する全ての情報はJSONとして保存されています。
+```
+### PERMISSION
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+USER_ID|number(12)|Yes|No|
+TARGET_RESOURCE|number(2)|Yes|No|1:カテゴリ 2:シリーズ 3:ブック
+TARGET_ID|number(12)|Yes|No|
+
+```
+ブックに対するアクセス権を管理するテーブルです。
+このテーブルにレコードが作成されると、その配下のブック全てが影響を受けます。
+レコードが存在しない場合は、全てのユーザーがアクセスできるという意味になります。
+```
+### USE_BOOK_SEARCH_SERVICE
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+SERVICE_ID|number(12)|Yes|No|
+PRIORITY|number(2)|No|Yes|
+
+```
+ISBNを使った書籍情報の検索に使用するWebサービスを管理するテーブルです。
+```
+### CONFIGURATION
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+KEY|nvarchar2(64)|Yes|No|
+VALUE|nvarchar2(256)|No|Yes|
+
+```
+ComicCafeサーバーの設定情報を管理するテーブルです。
+Webサービスのアカウント情報など、ユーザーが設定する情報を管理します。
+```
+### EXCLUDE_WORD
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+WORD|nvarchar2(64)|Yes|No|
+LOCATE|nvarchar2(4)|No|No|
+
+```
+無視ワードを管理するテーブルです。
+インポート処理でファイル名を解析する際に、無視するワードを管理します。
+```
+### IGNORE_FILE
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+ID|number(12)|No|No|
+FILE_PATH|nvarchar2(512)|Yes|No|
+HASH|nvarchar2(32)|Yes|No|MD5ハッシュ値
+
+```
+無視ファイルリストを管理するテーブルです。
+このテーブルに登録されたファイルは強制的にインポート処理でスキップされます。
+```
+### DATABASE_UNIQUE_ID
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+|UUID|nvarchar2(64)|Yes|No|
+
+```
+ComicCafeサーバーの一意性を保証するためのテーブルです。
+初回起動時にランダムな文字列が生成され登録されます。
+このテーブルには常に1レコードのみ存在します。
+複数のComicCafeサーバーを運用していて、接続先を切り替える場合に、ComicCafeの同一性を確認するのに使います。
+```
+### BOOK_REVIEW
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+BOOK_ID|number(12)|Yes|No|
+USER_ID|number(12)|Yes|No|
+COMMENT|nvarchar2(512)|No|Yes|
+RATING|number(1)|No|Yes|
+
+```
+ブックのレーティング、レビューを管理するテーブルです。
+v0.6.36時点では未使用です。
+```
+### BOOK_CONFIGURATION
+|列名|型|PK|NULL|説明|
+|:-----------|:------------|:------------|:------------|:------------|
+USER_ID|number(12)|Yes|No|
+BOOK_ID|number(12)|Yes|No|
+KEY|nvarchar2(64)|Yes|No|
+VALUE|nvarchar2(1024)|No|No|
+
+```
+ブック毎の設定を保存するテーブルです。
+v0.6.36時点では未使用です。
+```
+
+## SQLの例
+以下は著者が設定されていないブックのファイル名の一覧を取得するSQLです。  
+結果をCSVに加工して、[著者のインポート](../BasicOperations/Settings.mkd)を行い、[著者名の再解析](../BasicOperations/Tools.mkd)を実行すれば、まとめて著者を設定できます。
+
+```sql
+SELECT DISTINCT B.FILE_PATH
+FROM BOOK B
+LEFT OUTER JOIN BOOK_AUTHOR A ON B.BOOK_ID = A.BOOK_ID
+WHERE A.AUTHOR_ID IS NULL
+```

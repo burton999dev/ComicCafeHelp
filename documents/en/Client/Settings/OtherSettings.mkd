@@ -1,0 +1,28 @@
+# その他の設定
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/SettingsList2.png' width='250px'/>
+
+
+|設定|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_setting_import_export.png)|設定情報を[インポート・エクスポート](#imexport)します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_read_help.png)|このヘルプページを表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_google_plus.png)|ComicCafeをGooglePlusで+1します。是非押してください**お願いします。**
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_write_review.png)|レビューを書くためにGooglePlayのページを開きます。是非、星5のレビューを書いてください。***本当にお願いします。***
+
+
+
+## <a name ="imexport">設定のインポート・エクスポート</a>
+ComicCafeの設定情報をDropbox等のクラウドストレージにエクスポートして設定をバックアップすることができます。またバックアップした設定情報をインポートして設定を復元することができます。  
+`サーバの設定`とはサーバーの接続情報とアカウントのユーザー名、パスワードの情報です。`クライアント設定`とはクライアントで設定できる`サーバ設定`以外の全ての情報です。  
+エクスポートした情報は、他の端末でもインポートすることができるので、機種変更をした場合などに再入力の手間が省けて便利です。動作検証済みクラウドストレージは[Dropbox](https://play.google.com/store/apps/details?id=com.dropbox.android)と[Googleドライブ](https://play.google.com/store/apps/details?id=com.google.android.apps.docs)です。
+
+
+|設定|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_setting_import_server.png)|サーバ設定をインポートします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_setting_export_server.png)|サーバ設定をエクスポートします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_setting_import_client.png)|クライアント設定をインポートします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/preference/preference_setting_export_client.png)|クライアント設定をエクスポートします。
+
+
+

@@ -1,0 +1,176 @@
+# ビューワー
+漫画を読むためのビューワー画面です。画面上のタッチする場所によって様々な機能を呼び出すことができます。タッチ操作は[クライアントの設定](../Settings/ClientSettings.mkd)でカスタマイズすることが可能です。同様にハードウェアキーも機能を呼び出す為に使用できます。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/ViewerMain.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/SettingsViewerTouch.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/SettingsHardwareKey.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ビューワー</td>
+<td align='center'>タッチ操作</td>
+<td align='center'>ハードウェアキー操作</td>
+</tr>
+</table>
+
+## タッチ操作、ハードウェアキーで呼び出せる操作
+|操作|説明|
+|:-----------|:------------|
+次のページを表示|次のページに移動します。最終ページの場合は次のブックに移動します。<BR>ロングタップすると高速でページ移動します。
+前のページを表示|前のページに移動します。最初のページの場合は前のブックに移動します。<BR>ロングタップすると高速でページ移動します。
+次のブックを表示|次の巻のブックに移動します。
+前のブックを表示|前の巻のブックに移動します。
+サイドメニューを表示|サイドメニューを表示します。
+ブック情報を表示|ブック情報をダイアログ表示します。
+ページセレクタを表示|ページセレクタを表示します。<BR>ページセレクタを使ってサムネイルを見ながらページ移動することができます。
+指定ページへ移動|ページ番号を指定して移動します。
+ページ番号を表示|現在表示しているページ番号をトーストで表示します。
+同じ作者のブック一覧を表示|現在開いているブックと同じ作者のブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
+同じカテゴリのブック一覧を表示|現在開いているブックと同じカテゴリのブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
+同じシリーズのブック一覧を表示|現在開いているブックと同じシリーズのブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
+ブックマークに追加|現在表示しているページをブックマークに登録します。
+タグの設定|現在開いているブックにタグを設定します。
+ページの再読み込み|現在表示しているページを再読み込みします。<BR>読み込みに失敗した時に使用します。
+
+## ビューワーの設定
+ビューワーには様々な設定項目がありますが、[サイドメニュー](#side_menu)から設定するものと、[クライアントの設定](../Settings/ClientSettings.mkd)から設定するものの２種類があります。  
+[サイドメニュー](#side_menu)はビューワーの左部分を右にスワイプするか、`メニューボタン`を押すことで表示されます。[サイドメニュー](#side_menu)から設定できる項目は、基本的に表示中の画像に対して影響を与えるものや、表示中の本に対して操作を行う項目になります。それ以外のビューワーの共通の設定などは[クライアントの設定](../Settings/ClientSettings.mkd)から設定します。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/ViewerShowMenu.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/ViewerMenu.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/ViewerMenu2.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>メニューの表示方法</td>
+<td align='center'>メニュー１</td>
+<td align='center'>メニュー２</td>
+</tr>
+</table>
+
+## <a name ="side_menu">サイドメニュー</a>
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_preferences.png)|[設定](../Settings.mkd)画面に遷移します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_download.png)|現在開いているブックをダウンロードします。ダウンロードの状況は[ここ](Download.mkd)から確認できます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_add_bookmark.png)|現在表示しているページをブックマークに登録します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_set_tag.png)|現在開いているブックにタグを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_set_cover_image.png)|現在表示しているページを表紙画像に設定します。設定された画像は一覧画面で表紙として表示されます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_show_book_info.png)|現在開いているブックの書籍情報を表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_reload.png)|現在表示しているページを再読み込みします。読み込みに失敗した時に使用します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_move_first.png)|ブックの最初のページに移動します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_move_page.png)|指定したページに移動します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_back_page.png)|自動見開き表示が有効な場合に、結合する画像を1枚分後ろにずらします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_forward_page.png)|自動見開き表示が有効な場合に、結合する画像を1枚分前にずらします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_author.png)|現在開いているブックと同じ作者のブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_category.png)|現在開いているブックと同じカテゴリのブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_same_series.png)|現在開いているブックと同じシリーズのブック一覧を表示します。<BR>一覧からブックを選択することで、そのブックを開くことができます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_compression_quality.png)|画像の品質を調整します。品質を落とすと画像の表示は粗くなりますが、サーバーとの通信量を減らすことができます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_contrast.png)|画像のコントラストを調整します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_split_offset.png)|自動単ページが有効な場合に、画像を分割する位置を調整します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_start_slideshow.png)<BR>![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_stop_slideshow.png)|スライドショーを開始または停止します。
+
+
+### <a name ="direction">読む方向</a>
+見開きでスキャンしたページを分割して読む場合にのみ、影響する設定です。
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_left_to_right.png)|自動単ページが有効な場合に、分割した画像を左から右へ向かってページ遷移させます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_right_to_left.png)|自動単ページが有効な場合に、分割した画像を右から左へ向かってページ遷移させます。
+
+### <a name ="filter">画像平滑化方法</a>
+画像を拡大・縮小する際に使用するアルゴリズムを指定します。アルゴリズムによって画像の表示され方、サーバーでの処理の負荷が異なります。パフォーマンス的に問題なｋれば `Lanczos3法` を使用することをオススメします。
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_bicubic.png)|3次補間法を使って画像をスケーリングします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_bilinear.png)|線形補間法を使って画像をスケーリングします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_lanczos3.png)|Lanczos3法を使って画像をスケーリングします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_nearest_neighbor.png)|最近傍法を使って画像をスケーリングします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_area_averaging.png)|4近傍平均法を使って画像をスケーリングします。
+
+### <a name ="effect">ページエフェクト</a>
+画像を結合して見開き表示にしたり、見開き状態でスキャンした画像を分割して1ページ毎に表示することができます。残念ながら現時点では画像のアスペクト比によって自動で見開きページか単ページか判定する機能は実装されていません。
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_normal_page.png)|画像をそのまま表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_merge_page.png)|画像を結合して表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_split_page.png)|画像を分割して表示します。
+
+### <a name ="scale">画像スケール</a>
+ComicCafeでは画像はサーバー側でリサイズされて端末に送信されます。その際に画像サイズを何を基準にリサイズするかを指定します。
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_fit_screen.png)|画像を画面の大きさに合わせて最適に表示します。画像のアスペクト比は維持されます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_fit_width.png)|画像を画面の幅に合わせて表示します。画像のアスペクト比は維持されます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_fit_height.png)|画像を画面の高さ合わせて表示します。画像のアスペクト比は維持されます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_original_size.png)|オリジナルのサイズで表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_full_screen.png)|アスペクト比を無視して、画像を画面いっぱいに表示します。
+
+### <a name ="sharpness">シャープネス</a>
+スキャンの失敗でぼやけてしまった画像に対してシャープネス処理を施すと、可読性が改善する場合があります。
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_sharpness_on.png)|画像のシャープネスを有効にします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_sharpness_off.png)|画像のシャープネスを無効にします。
+
+### <a name ="rotation">画像の回転</a>
+画像を回転して表示することができます。実際にはあまり使わない機能だと思います。
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_rotate_0.png)|画像をそのまま表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_rotate_90.png)|画像を90°回転させて表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_rotate_180.png)|画像を180°回転させて表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_rotate_270.png)|画像を270°回転させて表示します。
+
+### <a name ="trimming">余白を除去</a>
+漫画の四隅にある余白を除去してコンテンツ部分を大きく表示することができます。除去のレベルは１〜５まであり、レベルが上がるにしたがって、より積極的に余白を除去しようとします。場合によっては本来なら余白でない部分を削ってしまう場合があるので、その場合はレベルを下げてください。
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_off.png)|画像をそのまま表示します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_lv1.png)|画像の四隅にある余白を削除して表示します。(レベル1)
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_lv2.png)|画像の四隅にある余白を削除して表示します。(レベル2)
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_lv3.png)|画像の四隅にある余白を削除して表示します。(レベル3)
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_lv4.png)|画像の四隅にある余白を削除して表示します。(レベル4)
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_trim_margins_lv5.png)|画像の四隅にある余白を削除して表示します。(レベル5)
+
+### <a name ="sort_method">画像のソート方法</a>
+アーカイブファイル内の画像ファイルのソート方法を指定できます。通常は`数字を0埋めしてソート`で問題ありません。  
+以下のように大文字小文字が混在してる場合に`文字を無視して数字のみでソート`が有効な場合があります。  
+```
+    [[page001.jpg], [PAGE002.jpg], [page003.jpg]]
+```
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_file_sorting_mode_pad.png)|画像のファイル名の数字部分を0埋めし桁数を揃えた後にソートします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_file_sorting_mode_num.png)|画像のファイル名の数字部分だけを取り出し、0埋めし桁数を揃えた後にソートします。
+
+### <a name ="pdflib">PDFライブラリ</a>
+PDFを画像に変換する際に使用するPDFライブラリを指定できます。ComicCafeで使用している[PDFBox](https://pdfbox.apache.org/)も[Pdf-renderer](https://java.net/projects/pdf-renderer/)も海外製のライブラリなので日本語のサポートがあまり良くありません。また[Pdf-renderer](https://java.net/projects/pdf-renderer/)はここ数年、アップデートされてないので基本的には[PDFBox](https://pdfbox.apache.org/)を使用することをオススメします。
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_pdfbox.png)|PDFの処理エンジンとして[Apache PDFBox](https://pdfbox.apache.org/)を使用します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/viewer_menu/list_menu_pdfrenderer.png)|PDFの処理エンジンとして[Pdf-renderer](https://java.net/projects/pdf-renderer/)を使用します。

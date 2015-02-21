@@ -1,0 +1,67 @@
+# ComicCafeサーバーの設定
+ComicCafeサーバーの様々な設定を行うことができます。設定は[システム](#system)、[インポート](#import)、[Webサービス](#webservice)、[セキュリティ](#security)の4つに大別されます。
+
+## <a name ="system">システム</a>
+システム全般の設定を行います。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/server/SettingSystem.png'/>
+
+|項目|説明|
+|:-----------|:------------|
+キャッシュに使用するHDDの容量|解凍した画像をサーバ上にキャッシュする為に使用するHDDの容量です。<BR>通常はデフォルトのままで問題ありません。
+インポート時にISBNをスキャンする|インポート時に画像からISBNをスキャンするかどうかを設定します。<BR>スキャンを無効にするとインポート処理にかかる時間を短縮できます。
+先頭ページからスキャンするページ数|ISBNのスキャンを有効にした場合、最初のページから何ページまでをスキャンするか指定します。<BR>スキャンするページ数を増やすと、インポートにかかる時間が長くなります。
+最終ページからスキャンするページ数|ISBNのスキャンを有効にした場合、最後のページから何ページまでをスキャンするか指定します。<BR>スキャンするページ数を増やすと、インポートにかかる時間が長くなります。
+ISBNを使ってWebから書籍情報を取得する|スキャン(手入力も含む)したISBNを使ってWebサービスから書籍情報を検索するかどうかを指定します。<BR>別途、[Webサービス](#webservice)の設定が必要です。
+Webから取得した書籍情報を優先する|Webサービスから取得した書籍情報を、ファイル名から解析した書籍情報より優先するかどうかを設定します。<BR>現状、Webサービスから取得できる書籍情報の精度があまりよくないので、この設定はOFFにすることを推奨します。
+Webから書籍情報を取得する際の問い合わせ間隔|Webサービスから書籍情報を取得する際の、リクエストの間隔です。<BR>短い時間にするとWebサービスに負荷をかけることになるのでオススメしません。
+PDFを画像に変換する際の品質|PDFファイルを画像に変換する時の画像の品質です。<BR>75以上に設定すると変換後の画像サイズが大きくなりすぎるのでオススメしません。
+PDFを処理するライブラリ|PDFを処理するライブラリをPDFBoxとPdfRendererから選択します。<BR>デフォルトのPDFBoxでうまく処理できない場合にPdfRendererをお試しください。
+
+## <a name ="import">インポート</a>
+[インポート](Import.mkd)に関する設定を行います。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/server/SettingImport.png'/>
+
+|項目|説明|
+|:-----------|:------------|
+インポート時にタグを作成する|[インポート時のファイル名の解析処理](Import.mkd)で、不明な文字列をタグとして登録するかどうかを設定します。
+インポート時に横長の画像は２分割して表紙画像を生成する|表紙と裏表紙をまとめてスキャンして自炊した場合に、<BR>画像を分割して表表紙のみを表紙イメージとして採用するための設定です。
+ディレクトリを監視して自動的にファイルをインポートする|HDDに自炊ファイルがコピーされた場合に自動でファイルをインポートする機能です。<BR>残念ながら動作環境によっては正常に動作しません。
+
+## <a name ="webservice">Webサービス</a>
+[Webサービス](../Webservice.mkd)に関する設定を行います。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/server/SettingWebservice.png'/>
+
+|項目|説明|
+|:-----------|:------------|
+書籍情報を取得するWebサービスの選択|使用するWebサービスを選択します。<BR>Webサービスは複数選択でき、優先順位があります。
+楽天ブックス総合検索API|楽天のAPIを使うための情報を設定します。<BR>詳しくは楽天のサイトを参照してください。
+ISBNdb.com|ISBNdb.comのAPIを使うための情報を設定します。<BR>詳しくはISBNdb.comのサイトを参照してください。
+
+## <a name ="security">セキュリティ</a>
+アカウントの管理を行います。ComicCafeでは初期状態で`admin`と`guest`の2つのアカウントが存在します。  
+ComicCafeを家族など複数人で使用する場合は、それぞれ個人用のアカウントを作成してください。ComicCafeは[閲覧履歴](../../Client/BasicOperations/DirectorySearch.mkd#history)や[本棚](../../Client/BasicOperations/Bookshelf.mkd)などの情報を全てアカウント毎に管理しています。家族で同じアカウントを共有すると、それらの情報も共有されるので使い勝手が非常に悪くなります。また[パーミッション](../Permission.mkd)を設定すれば、ブックを特定のユーザにアクセスさせないようにすることもできます。  
+アカウントを追加する場合は、![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/add_user.png)を編集する場合は![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/edit.gif)を削除する場合は![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/delete.gif)をクリックします。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/server/SettingSecurity.png'/>
+
+**初期ユーザー**
+
+|ユーザ名|初期パスワード|説明|
+|:-----------|:------------|:------------|
+admin|admin|管理者アカウントです。Web管理画面にログインする為に使用します。
+guest|guest|デフォルトのユーザです。ComicCafeを複数人で使用しない場合は、このアカウントがあれば十分です。<BR>このユーザは削除できないのでパスワードを推測されないものに変更することをオススメします。
+
+### <a name ="add_account">アカウントの登録</a>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/server/SettingSecurityAddUser.png'/>
+
+
+|項目|説明|
+|:-----------|:------------|
+ユーザ名|ユーザー名を設定します。
+パスワード|パスワードを設定します。<BR>パスワードは暗号化されて保存されるので忘れないようにしてください。
+AndroidID|[クライアント情報](../../Client/BasicOperations/Information.mkd)に表示されているAndroidIDを設定することで、アクセスできるデバイスを制限できます。<BR>仮にユーザ名とパスワードが第三者に漏れた場合でも、AndroidIDを設定しておけば、<BR>その端末以外ではアクセスすることができないのでセキュリティが向上します。<BR>AndroidIDはカンマ区切りで複数設定できます。またAndroidIDは端末固有の識別子ではないので、<BR>端末リセットなどを行うと値が変更されてします。その場合は再度設定する必要があります。<BR>設定しない場合は全ての端末からアクセスできます。
+
+

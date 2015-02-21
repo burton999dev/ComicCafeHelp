@@ -1,0 +1,15 @@
+# クライアントの設定
+設定項目は大きく分けて、`サーバーの設定`, `クライアントの設定`, `その他の設定`があります。
+
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/SettingsList.png' width='250px'/>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/SettingsList2.png' width='250px'/>
+
+
+1. [サーバーの設定](Settings/ServerSettings.mkd)  
+    接続するComicCafeサーバーの設定、およびサーバーの操作を行うことができます。インストール後は、まず最初にサーバーの接続先の設定する必要があります。
+
+1. [クライアントの設定](Settings/ClientSettings.mkd)  
+    表示方法やタッチ操作など、好みに合わせてクライアントの動作を設定することができます。イメージに対する設定などは、`クライアントの設定`ではなくビューワーの画面で設定します。
+
+1. [その他](Settings/OtherSettings.mkd)  
+    設定情報のインポート、エクスポートができます。またヘルプへのリンクやレビューへのリンクがあります。是非とも5つ星のレビューを書いてください。本当にお願いします。

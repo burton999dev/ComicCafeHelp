@@ -1,0 +1,203 @@
+# ディレクトリ検索
+ディレクトリ検索は、`カテゴリ`や`著者`などの情報からリストを辿ってブックを検索する手段を提供します。  
+[ランダム](#random)以外のディレクトリ検索は、最終的にブック一覧に辿り着くようになっています。  
+各一覧画面でロングタップすると[コンテキストメニュー](#context_menu)が表示され、選択した項目に対して様々な操作を行うことができます。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/BookList.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/BookListContextMenu.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ブック一覧</td>
+<td align='center'>コンテキストメニュー</td>
+</tr>
+</table>
+
+## <a name ="bookshelf">本棚</a>
+本棚は予め定義した条件でブックを検索する機能です。本棚は何個でも作成することができ、様々な条件を指定できるので、この機能を使いこなすことができれば基本的に [カテゴリ](#category)、[著者](#author)、[出版社](#publisher)、[タグ](#tag)、[新着](#latest) でのディレクトリ検索は不要になります。  
+本棚についての詳細な説明は[こちら](Bookshelf.mkd)を参照してください。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/DirectorySearchBookshelf.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/BookshelfList.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/BookshelfView.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>本棚一覧</td>
+<td align='center'>シリーズ一覧</td>
+</tr>
+</table>
+
+## <a name ="category">カテゴリ</a>
+ルートのカテゴリから辿ってブックを検索する機能です。PC上でツリー構造のフォルダを検索しているイメージです。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/DirectorySearchCategory.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/CategoryList.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/SeriesList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>カテゴリ一覧</td>
+<td align='center'>シリーズ一覧</td>
+</tr>
+</table>
+
+## <a name ="author">著者</a>
+著者からブックを検索する機能です。ブックに関連づいている著者のみ一覧に表示されます。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/DirectorySearchAuthor.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/AuthorList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>著者一覧</td>
+</tr>
+</table>
+
+## <a name ="publisher">出版社</a>
+出版社からブックを検索する機能です。ブックに関連づいている出版社のみ一覧に表示されます。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/DirectorySearchPublisher.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/PublisherList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>出版社一覧</td>
+</tr>
+</table>
+
+## <a name ="tag">タグ</a>
+タグからブックを検索する機能です。ブックに関連づいているタグのみ一覧に表示されます。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/DirectorySearchTag.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/TagList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>タグ一覧</td>
+</tr>
+</table>
+
+## <a name ="bookmark">ブックマーク</a>
+ブックマークからブックを検索する機能です。ブックマークは[ビューワー](Viewer.mkd)から作成することができます。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/DirectorySearchBookmark.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/BookmarkList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>ブックマーク一覧</td>
+</tr>
+</table>
+
+## <a name ="history">履歴</a>
+閲覧履歴からブックを検索する機能です。履歴の最大表示件数は256件で[設定](../Settings/ClientSettings.mkd)から変更することができます。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/DirectorySearchHistory.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/HistoryList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>履歴一覧</td>
+</tr>
+</table>
+
+## <a name ="latest">新着</a>
+最近追加・更新されたブックを検索する機能です。新着の最大表示件数は256件で[設定](../Settings/ClientSettings.mkd)から変更することができます。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/DirectorySearchLatest.png' width='250px'/>
+</td>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/LatestList.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+<td align='center'>新着一覧</td>
+</tr>
+</table>
+
+## <a name ="random">ランダム</a>
+全てのブックの中からランダムで選択されたブックを[ビューワー](Viewer.mkd)で表示します。ブックは`未読`かつ`巻数が1巻`のものが選択されます。
+
+<table border='0'>
+<tr>
+<td>
+<img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/DirectorySearchRandom.png' width='250px'/>
+</td>
+</tr>
+<tr>
+<td align='center'>ディレクトリ検索</td>
+</tr>
+</table>
+
+
+## <a name ="context_menu">コンテキストメニュー</a>
+一覧画面で項目をロングタップすることでコンテキストメニューが表示されます。表示されるメニューはロングタップした項目によって異なります。  
+操作は下位のブックに伝搬します。例えばカテゴリをロングタップして`著者の設定`の操作をした場合、そのカテゴリに属する全てのブックに指定した著者が設定されます。
+
+|メニュー|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_author.png)|著者を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_publisher.png)|出版社を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_tag.png)|タグを設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_read.png)|ブックを既読に設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_unread.png)|ブックを未読に設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_download.png)|自炊ファイルをダウンロードします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_show_book_info.png)|書籍情報を設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_completed.png)|シリーズを完結に設定します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/context_menu/context_menu_set_uncompleted.png)|シリーズを未完結に設定します。

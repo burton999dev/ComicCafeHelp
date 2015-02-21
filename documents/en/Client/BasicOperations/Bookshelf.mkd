@@ -1,0 +1,89 @@
+# 本棚
+ComicCafeでは検索条件を指定して本棚を作成することができます。本棚は言い替えれば`検索条件`を名前を付けて保存する機能です。検索条件は本棚を開いた時に動的に評価されるので、あなたの自炊ファイルコレクションが増えると、本棚の内容も充実していきます。
+
+## 本棚の作成手順
+
+1. `ディレクトリ検索`から本棚をタップして本棚一覧を表示します。右上にある`本棚の追加`のアイコンをタップします。
+
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/BookshelfSetting0.png' width='250px'/>
+
+1. 本棚の`名前`、`表示順`、`アイコン`を入力して`次へ`をタップします。なお、`表示順`が同じ本棚は`名前`でソートされます。
+
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/BookshelfSetting1.png' width='250px'/>
+
+1. 抽出条件を設定します。抽出条件を追加するには右上にある`＋`のアイコンをタップします。複数の条件を設定する場合は、`AND条件`や`OR条件`で囲む必要があります。抽出条件はアイコンをドラッグすることで順番を入れ替えることができます。既にある抽出条件を編集、削除したい場合は抽出条件をロングタップします。何も条件を設定しない場合は、全てのブックが検索されます。条件の設定が終わったら`次へ`をタップします。
+
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/BookshelfSetting2.png' width='250px'/>
+
+1. ソート条件を設定します。ソート条件を追加するには右上にある`＋`のアイコンをタップします。ソートの対象となる項目と、昇順、降順かを設定します。ソート条件は複数設定することができ、上にあるソート条件から順に適用されます。ソート条件はアイコンをドラッグすることで順番を入れ替えることができます。既にあるソート条件を編集、削除したい場合は抽出条件をロングタップします。条件の設定が終わったら`次へ`をタップします。
+
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/BookshelfSetting3.png' width='250px'/>
+
+1. 本棚の条件の確認画面が表示されます。条件が正しく設定されていることを確認して、`OK`をタップします。本棚は後から修正、削除することができます。
+
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/BookshelfSetting4.png' width='250px'/>
+
+1. 本棚の作成に成功すると、本棚一覧画面に遷移します。作成した新しい本棚が確認できます。
+
+    <img src='https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/en/client/BookshelfList2.png' width='250px'/>
+
+## 本棚の抽出条件
+
+|条件|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_and.png)|And条件です。このカッコに囲まれた複数の条件を全て満たすブックが抽出されます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_or.png)|Or条件です。このカッコに囲まれた複数の条件のうち、１つでも満たすブックが抽出されます。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_not.png)|Not条件です。このカッコに囲まれた条件を満たさない場合にブックが抽出されます。<BR>カッコ内には複数の条件は指定できません。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_category.png)|指定したカテゴリの属するブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_author.png)|指定した著者に関連づいているブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_publisher.png)|指定した出版社に関連づいているブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_tag.png)|指定したタグに関連づいているブックを抽出します。<BR>タグはブックが属しているシリーズに設定されていても有効です。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_completion.png)|完結、未完結の条件を満たすブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_last_modified.png)|ブックの最終更新日と指定日を比較して条件に合致するブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_recently.png)|指定した日数以内に作成、更新されたブックを抽出します。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_reading_progress.png)|読書の進捗(%)が指定した条件に合致するブックを抽出します。
+
+## 本棚のソート条件
+
+|条件|説明|
+|:-----------|:------------|
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_last_modified.png)|ブックの最終更日時でソートします。最終更新日は最後にインポートやブックの編集をした日時です。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_category.png)|ブックが属するカテゴリのIDでソートします。<BR>例えば掲載雑誌のカテゴリで管理している場合、結果は掲載雑誌毎にまとまって表示されるようになります。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_book_title.png)|ブックのタイトルでソートします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_series_title.png)|ブックが属しているシリーズでソートします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_author.png)|ブックに設定されている著者のIDでソートします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_publisher.png)|ブックに設定されている出版社のIDでソートします。
+![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_sort_tag.png)|ブックに設定されているタグのIDでソートします。
+
+## 抽出条件の例
+
+1. カテゴリが `少年コミック` かつ `完結済み` かつ `30日以内` に追加されたブック
+
+    |条件|オペレーション|値|
+    |:--------:|:--------:|:--------:|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_and_start.png)|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_category.png)|=|`少年コミック`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_completion.png)|=|`完結`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_recently.png)|=|`30`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_and_end.png)|
+
+1. カテゴリが`少年コミック` か `少女コミック` でかつ `お気に入り` のタグが設定されているブック
+
+    |条件|オペレーション|値|
+    |:--------:|:--------:|:--------:|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_and_start.png)|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_or_start.png)|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_category.png)|=|`少年コミック`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_category.png)|=|`少女コミック`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_or_end.png)|
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_tag.png)|=|`お気に入り`
+    ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/client/bookshelf/bookshelf_condition_and_end.png)|
+
+
+
+## 注意事項
+
+* あまり複雑な条件を指定しないでください。パフォーマンスが悪化してタイムアウトする可能性があります。
+* 本棚を作成後に、条件に設定した、著者や出版社、タグなどをサーバーで削除すると、状態が不正な本棚になる可能性があります。
+* 条件の論理的な検証はしていません。全く関連性の無い２つカテゴリをAnd条件で指定したりすると、絶対に結果がヒットしない本棚が作成できます。
+

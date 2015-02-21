@@ -1,0 +1,6 @@
+# サーバーの構成
+以下はComicCafeで使用している主要なコンポーネントの構成です。開発の動機の一つとして仕事で使ったことのないライブラリの勉強という側面もあり、様々なオープンソースライブラリを活用しています。  
+これが、サーバーjarファイルの肥大化の原因になっています。。。
+
+![ServerComponent](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/ServerComponent.png)
+
