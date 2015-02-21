@@ -1,3 +1,5 @@
+**Sorry, this page has not translated yet.**
+
 # ComicCafeサーバーの起動方法
 ComicCafeServerはOS毎に用意された起動スクリプトから起動します。  
 Windows向けには`exe`ファイルも提供していますが、これは`bat`ファイルに馴染みのないユーザー向けです。基本的には起動スクリプトから起動するのと同じです。  

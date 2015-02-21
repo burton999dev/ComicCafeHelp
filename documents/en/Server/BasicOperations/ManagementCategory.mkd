@@ -1,3 +1,5 @@
+**Sorry, this page has not translated yet.**
+
 # カテゴリの管理
 メイン画面左部のツリーで ![](https://raw.githubusercontent.com/burton999dev/ComicCafeHelp/master/images/server/icon/folder.png) を選択すると、画面右部にカテゴリの管理画面が表示されます。
 

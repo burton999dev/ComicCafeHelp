@@ -1,3 +1,5 @@
+**Sorry, this page has not translated yet.**
+
 # データベース
 ComicCafeでは書籍情報、ユーザー情報、閲覧履歴などほぼ全ての情報をサーバーのデータベースで管理しています。  
 データベースは[H2 Database Engine](http://www.h2database.com/html/main.html)という組み込みのデータベースを使用しています。  

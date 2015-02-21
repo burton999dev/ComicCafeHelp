@@ -1,3 +1,5 @@
+**Sorry, this page has not translated yet.**
+
 v0.6.36 (2015/01/14)
 ===
 - ダウンロード設定で強制終了するバグを修正しました。

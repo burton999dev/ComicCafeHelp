@@ -1,3 +1,5 @@
+**Sorry, this page has not translated yet.**
+
 # サーバの設定
 接続するComicCafeサーバの設定や、各種操作を実行することができます。
 

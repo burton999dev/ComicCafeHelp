@@ -1,3 +1,5 @@
+**Sorry, this page has not translated yet.**
+
 # ツール
 ComicCafeの便利な機能を利用できます。  
 機能は[バッチ処理](#batch)、[インポート](#import)、[エクスポート](#export)、[デーモン](#demon)の4機能があります。

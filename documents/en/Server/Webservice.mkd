@@ -1,3 +1,5 @@
+**Sorry, this page has not translated yet.**
+
 # Webサービス連携
 ComicCafeは画像からスキャンしたISBNを使ってWebサービスから書籍の情報を取得することができます。  
 ただしWebサービスから取得できるデータの精度があまり高くないため、補助的な機能として使うことをオススメします。  

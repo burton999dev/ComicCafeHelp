@@ -1,3 +1,5 @@
+**Sorry, this page has not translated yet.**
+
 # はじめに
 
 `ComicCafe` は1,000冊以上もの大量の自炊ファイルを保持してるユーザーを想定して開発されたストリーミング型のコミックビューワです。  

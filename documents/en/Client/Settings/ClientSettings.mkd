@@ -1,3 +1,5 @@
+**Sorry, this page has not translated yet.**
+
 # クライアントの設定
 ComicCafeクライアントの様々な設定を行うことができます。設定は[機能設定](#function_settings)、[スクリーン設定](#screen_settings)、[ハードウェア設定](#hardware_settings)、[Viewer設定](#viewer_settings)、[ダウンロード設定](#download_settings)の5つに大別されます。
 

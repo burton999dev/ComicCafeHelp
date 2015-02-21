@@ -1,3 +1,5 @@
+**Sorry, this page has not translated yet.**
+
 # ComicCafeサーバー
 ここではサーバーの起動方法から操作方法などを説明します。  
 エンジニアの方であれば、[技術情報](Server/TechnicalInformation.mkd)を読むことでさらに便利に使えるかもしれません。

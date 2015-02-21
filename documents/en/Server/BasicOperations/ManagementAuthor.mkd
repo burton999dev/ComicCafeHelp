@@ -1,3 +1,5 @@
+**Sorry, this page has not translated yet.**
+
 # 著者の管理
 著者の[検索](#search)、[登録](#register)、[編集](#update)、[削除](#delete)を行うことができます。ComicCafeはデフォルトで著者データベースに約20,000件のデータを持っています。また著者データはサーバーのアップデートで今後も追加されていきます。  
 著者とブックを関連付けることで、[本棚](../../Client/BasicOperations/Bookshelf.mkd)の条件にしたり、同じ著者のブックの一覧を表示したりと、ComicCafeの便利な機能を利用することができます。
