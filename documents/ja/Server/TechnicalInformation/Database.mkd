@@ -315,3 +315,19 @@ FROM BOOK B
 LEFT OUTER JOIN BOOK_AUTHOR A ON B.BOOK_ID = A.BOOK_ID
 WHERE A.AUTHOR_ID IS NULL
 ```
+
+## RESTを使ってSQLを実行する
+ComicCafeでは、REST API経由でSQLを実行することが可能です。実行できるSQLは`SELECT`のみで`UPDATE`や`DELETE`は未サポートです。`SELECT`の結果はJSONの配列で取得できます。  
+以下にREST APIを実行するための [curl](http://curl.haxx.se/) コマンドを示します。  
+`Credentials`にはユーザ名とパスワードを`:`で連結してBase64でエンコードした文字列を指定します。  
+
+```
+curl -v -G \
+    -H 'Authorization:Basic [Credentials]' \
+    --data-urlencode "sql=select BOOK_ID from BOOK where PUBLISHER_ID is null" \
+    http://[Hostname or IP]:[PortNumber]/comic-cafe/api/query
+```
+
+HttpMethodが`POST`じゃなくて`GET`ってのが少し微妙ですね。
+
+
