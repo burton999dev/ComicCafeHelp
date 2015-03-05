@@ -305,6 +305,46 @@ VALUE|nvarchar2(1024)|No|No|
 v0.6.36時点では未使用です。
 ```
 
+## 関数
+ComicCafeではH2DB上に便利なユーザー定義関数を実装しています。それらの関数を使うことで複雑な条件を簡単に書くことができます。  
+
+### GET_CHILD_CATEGORIES
+指定したカテゴリの配下のカテゴリIDの一覧を返す関数です。
+
+|No|引数|型|説明|
+|:-----------|:------------|:------------|:------------|
+1|CATEGORY_ID|number|カテゴリID
+
+**使用例**
+
+```sql
+// ID=120のカテゴリの配下にある全てのシリーズのIDを取得します。
+SELECT SERIES_ID
+FROM SERIES
+WHERE CATEGORY_ID IN (
+    SELECT CATEGORY_ID
+    FROM GET_CHILD_CATEGORIES(120)
+)
+```
+
+### CALCULATE_READ_PROGRESS
+ブックの読書進捗をパーセントで取得する関数です。戻り値は0〜100になります。
+
+|No|引数|型|説明|
+|:-----------|:------------|:------------|:------------|
+1|PAGE_COUNT|number|ブックのページ数
+2|READ_PAGE_FIELDS|nvarchar2|READ_BOOKテーブルのREAD_PAGE_FIELDS列の値
+
+**使用例**
+
+```sql
+// ID=3のユーザーが総ページの50%以上読んでいるブックのID一覧を取得します。
+SELECT B.BOOK_ID
+FROM BOOK B
+INNER JOIN READ_BOOK RB on B.BOOK_ID = RB.BOOK_ID and RB.USER_ID = 3
+WHERE CALCULATE_READ_PROGRESS(B.PAGE_COUNT, RB.READ_PAGE_FIELDS) > 50
+```
+
 ## SQLの例
 以下は著者が設定されていないブックのファイル名の一覧を取得するSQLです。  
 結果をCSVに加工して、[著者のインポート](../BasicOperations/Settings.mkd)を行い、[著者名の再解析](../BasicOperations/Tools.mkd)を実行すれば、まとめて著者を設定できます。
