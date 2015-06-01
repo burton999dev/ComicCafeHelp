@@ -187,7 +187,8 @@ ComicCafeは [ComicRack](http://comicrack.cyolito.com/downloads/ComicRack/Suppor
 ## ISBNの自動スキャン
 設定でISBNの自動スキャンが有効で、システムで使用できるメモリ量が十分な場合にComicCafeは画像からISBNのバーコードをスキャンします。  
 ISBNを認識できた場合はDBに登録されWebサービスとの連携に利用されます。
-画像の傾きが大きかったり、画質が悪い場合、バーコードを正確に読み取れない可能性があります。
+画像の傾きが大きかったり、画質が悪い場合、バーコードを正確に読み取れない可能性があります。  
+**スペックの低いPCで運用する場合は設定でISBNの自動スキャンをOFFにすることを強く推奨します。自炊ファイルをファイル名で管理している場合は基本的にISBNのスキャンはほとんどの場合、不要です。**
 
 ## 無視リスト
 ComicCafeは圧縮ファイルの解凍に[7-Zip-JBinding](http://sevenzipjbind.sourceforge.net/)というオープンソースのライブラリを使用しています。  
