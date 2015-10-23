@@ -8,7 +8,7 @@
 
 **<a name ="japanese">目次</a>**  
 Android用コミックビューワアプリ **ComicCafe** の公式ヘルプです。  
-ComicCafeは広告無しの無料アプリですが、みなさまの寄付を[Amazonのほしい物リスト](http://www.amazon.co.jp/registry/wishlist/336DBVUUWKOM8)で募集しております。
+ComicCafeは広告無しの無料アプリですが、みなさまの温かい寄付を[Amazonのほしい物リスト](http://www.amazon.co.jp/registry/wishlist/336DBVUUWKOM8)で募集しております。
  
 
 - [はじめに](documents/ja/Introduction.mkd)
