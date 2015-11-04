@@ -48,6 +48,7 @@ ComicCafeは広告無しの無料アプリですが、みなさまの温かい�
 		- [クライアントの設定](documents/ja/Client/Settings/ClientSettings.mkd)
 		- [その他](documents/ja/Client/Settings/OtherSettings.mkd)
 - [FAQ](documents/ja/FAQ.mkd)
+- [ComicCafeに貢献](documents/ja/Contribution.mkd)
 
 <br/>
 <br/>
