@@ -8,8 +8,10 @@
 
 **<a name ="japanese">目次</a>**  
 Android用コミックビューワアプリ **ComicCafe** の公式ヘルプです。  
-ComicCafeは広告無しの無料アプリですが、みなさまの温かい寄付を[Amazonのほしい物リスト](http://www.amazon.co.jp/registry/wishlist/336DBVUUWKOM8)で募集しております。
- 
+ComicCafeは広告無しの無料アプリですが、みなさまの温かい寄付を[Amazonのほしい物リスト](http://www.amazon.co.jp/registry/wishlist/336DBVUUWKOM8)で募集しております。  
+[CalcNote](https://play.google.com/store/apps/details?id=com.burton999.notecal)という電卓アプリも開発しています。ComicCafeと同様、よろしくお願い致します。  
+
+
 
 - [はじめに](documents/ja/Introduction.mkd)
 - [使用許諾契約](documents/ja/LicenseAgreement.mkd)
